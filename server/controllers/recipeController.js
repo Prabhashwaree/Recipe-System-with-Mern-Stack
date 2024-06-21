@@ -228,7 +228,7 @@ const toggleFavoriteRecipe = async (req, res, next) => {
           favorites: user.favorites,
         },
       },
-      process.env.ACCESS_TOKEN_SECRET,
+      process.env.ACCESS_TOKEN_SECRET || "secret",
       { expiresIn: "1d" }
     );
     return res.status(201).json({ accessToken });

@@ -60,7 +60,7 @@ const login = async (req, res, next) => {
           favorites: foundUser.favorites,
         },
       },
-      process.env.ACCESS_TOKEN_SECRET,
+      process.env.ACCESS_TOKEN_SECRET || "secret",
       { expiresIn: "30m" }
     );
 
@@ -68,7 +68,7 @@ const login = async (req, res, next) => {
       {
         userId: foundUser._id,
       },
-      process.env.REFRESH_TOKEN_SECRET,
+      process.env.REFRESH_TOKEN_SECRET || "secret",
       { expiresIn: "2d" }
     );
 
@@ -101,7 +101,7 @@ const refreshToken = async (req, res) => {
 
   jwt.verify(
     refreshToken,
-    process.env.REFRESH_TOKEN_SECRET,
+    process.env.REFRESH_TOKEN_SECRET || "secret",
     async (err, decoded) => {
       if (err || foundUser._id.toString() !== decoded.userId) {
         return res.status(403).json({ message: "Forbidden" });
@@ -118,7 +118,7 @@ const refreshToken = async (req, res) => {
             favorites: foundUser.favorites,
           },
         },
-        process.env.ACCESS_TOKEN_SECRET,
+        process.env.ACCESS_TOKEN_SECRET || "secret",
         { expiresIn: "30m" }
       );
       res.json({ accessToken });

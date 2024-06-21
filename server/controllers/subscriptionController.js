@@ -2,7 +2,7 @@ const User = require("../models/userModel");
 const jwt = require("jsonwebtoken");
 const Stripe = require("stripe");
 
-const stripe = Stripe(process.env.STRIPE_KEY);
+const stripe = Stripe(process.env.STRIPE_KEY || 1234);
 
 const subscribe = async (req, res, next) => {
   try {
@@ -52,7 +52,7 @@ const subscribe = async (req, res, next) => {
           favorites: foundUser.favorites,
         },
       },
-      process.env.ACCESS_TOKEN_SECRET,
+      process.env.ACCESS_TOKEN_SECRET || "secret",
       { expiresIn: "1d" }
     );
 

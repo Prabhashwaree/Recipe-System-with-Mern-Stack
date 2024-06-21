@@ -43,7 +43,7 @@ const updateUser = async (req, res, next) => {
           favorites: foundUser.favorites,
         },
       },
-      process.env.ACCESS_TOKEN_SECRET,
+      process.env.ACCESS_TOKEN_SECRET || "secret",
       { expiresIn: "30m" }
     );
     return res.status(201).json({ accessToken });
