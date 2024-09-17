@@ -52,7 +52,7 @@ const DashboardRecipes = () => {
               alt={author?.name}
               src={author?.profilePicture}
               sx={{ width: 36, height: 36 }}
-              className="border-2 border-primary"
+              className="border-2 border-[#5DBF0F]"
             />
             {author.name}
           </div>
@@ -89,8 +89,8 @@ const DashboardRecipes = () => {
       renderCell: ({ row: { _id } }) => {
         return (
           <div
-            className="rounded shadow-md w-[40%] text-center cursor-pointer  bg-primaryLight
-            hover:bg-primary text-light py-2"
+            className="rounded shadow-md w-[40%] text-center cursor-pointer  bg-[#5DBF0F]
+            hover:bg-[#5DBF0F] text-light py-2"
             onClick={() => handleDelete(_id)}
           >
             Delete

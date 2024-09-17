@@ -6,8 +6,10 @@ import useTitle from "../../hooks/useTitle";
 
 const index = () => {
   const { data, isLoading } = useGetRecipesQuery();
+  
   const user = useAuth();
   useTitle("Recipen - My Recipes");
+  console.log(data,user?.userId);
 
   const updatedData = data?.filter((obj) => obj.author._id === user?.userId);
 

@@ -45,7 +45,7 @@ const Users = () => {
               alt={name}
               src={profilePicture}
               sx={{ width: 36, height: 36 }}
-              className="border-2 border-primary"
+              className="border-2 border-[#5DBF0F]"
             />
             {name}
           </div>
@@ -97,9 +97,9 @@ const Users = () => {
         return (
           <div
             className={`rounded shadow-md w-[40%] py-1 text-center cursor-pointer ${
-              isDisabled ? "bg-[#fad57f]" : "bg-primaryLight"
+              isDisabled ? "bg-[#fad57f]" : "bg-[#5DBF0F]"
             } ${
-              isDisabled ? "hover:bg-[#fad57f]" : "hover:bg-primary"
+              isDisabled ? "hover:bg-[#fad57f]" : "hover:bg-[#5DBF0F]"
             } text-light py-2`}
             onClick={() => handleDisable(_id)}
           >

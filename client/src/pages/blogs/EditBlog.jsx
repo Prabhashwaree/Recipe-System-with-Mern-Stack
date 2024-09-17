@@ -103,7 +103,7 @@ const EditBlog = () => {
                   aria-required="true"
                   aria-describedby="title-error"
                   placeholder="Enter blog title"
-                  className="p-1.5 border bg-gray-100 rounded focus:outline outline-primary"
+                  className="p-1.5 border bg-gray-100 rounded focus:outline outline-[#5DBF0F]"
                 />
                 <span
                   id="title-error"
@@ -131,7 +131,7 @@ const EditBlog = () => {
                   rows="10"
                   aria-required="true"
                   placeholder="Write your blog content here..."
-                  className="p-1.5 border bg-gray-100 rounded focus:outline outline-primary w-full resize-none"
+                  className="p-1.5 border bg-gray-100 rounded focus:outline outline-[#5DBF0F] w-full resize-none"
                 ></textarea>
               </div>
             </div>
@@ -144,7 +144,7 @@ const EditBlog = () => {
           </div>
           <hr className="block md:hidden mt-6" />
           {/* Upload recipe image */}
-          <div className="basis-1/3 rounded-xl shadow-md hover:shadow-primary hover:shadow flex justify-center items-center w-full p-8 max-h-[300px]">
+          <div className="basis-1/3 rounded-xl shadow-md hover:shadow-[#5DBF0F] hover:shadow flex justify-center items-center w-full p-8 max-h-[300px]">
             <label
               htmlFor="image"
               className="font-bold cursor-pointer flex flex-col justify-center items-center"
@@ -168,7 +168,7 @@ const EditBlog = () => {
               </div>
               <p className="text-center">
                 Drag your image here, or
-                <span className="text-primary"> browse</span>
+                <span className="text-[#5DBF0F]"> browse</span>
               </p>
             </label>
             <input

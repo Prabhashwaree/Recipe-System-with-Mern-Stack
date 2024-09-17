@@ -43,7 +43,7 @@ const Input = ({
         aria-describedby={`${id}-error`}
         placeholder={placeholder}
         pattern={pattern}
-        className="py-1.5 px-11 border bg-gray-100 rounded-lg focus:outline outline-primary"
+        className="py-1.5 px-11 border bg-gray-100 rounded-lg focus:outline outline-[#5DBF0F]"
       />
       {type === "password" && (
         <>

@@ -59,7 +59,7 @@ const SignIn = () => {
             New to Recipen?{" "}
             <Link
               to={"/auth/signup"}
-              className="text-primary font-semibold"
+              className="text-[#5DBF0F] font-semibold"
             >
               Create an account
             </Link>
@@ -73,7 +73,7 @@ const SignIn = () => {
           <Input
             type={"email"}
             id={"email"}
-            icon={<IoMailOutline />}
+            icon={<IoMailOutline color="#5DBF0F" />}
             handleChange={handleChange}
             value={formDetails.email}
             label={"Email"}
@@ -82,7 +82,7 @@ const SignIn = () => {
           <Input
             type={"password"}
             id={"password"}
-            icon={<BiLockAlt />}
+            icon={<BiLockAlt color="#5DBF0F"/>}
             handleChange={handleChange}
             value={formDetails.password}
             label={"Password"}
@@ -97,7 +97,7 @@ const SignIn = () => {
         </form>
       </div>
       {/* Sign in banner image */}
-      <div className="hidden md:block basis-1/2 bg-login bg-no-repeat bg-cover bg-center"></div>
+      <div className="hidden md:block basis-1/2 bg-[url('/src/assets/login_sideimg.jpg')] bg-no-repeat bg-cover bg-center"></div>
     </section>
   );
 };

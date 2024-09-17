@@ -132,7 +132,7 @@ const AddRecipe = () => {
                 aria-required="true"
                 aria-describedby="title-error"
                 placeholder="Enter recipe name"
-                className="p-1.5 border bg-gray-100 rounded focus:outline outline-primary"
+                className="p-1.5 border bg-gray-100 rounded focus:outline outline-[#5DBF0F]"
               />
               <span
                 id="title-error"
@@ -161,7 +161,7 @@ const AddRecipe = () => {
                 rows="5"
                 aria-required="true"
                 placeholder="Enter your description here..."
-                className="p-1.5 border bg-gray-100 rounded focus:outline outline-primary w-full resize-none"
+                className="p-1.5 border bg-gray-100 rounded focus:outline outline-[#5DBF0F] w-full resize-none"
               ></textarea>
             </div>
           </div>
@@ -186,7 +186,7 @@ const AddRecipe = () => {
                 aria-required="true"
                 aria-describedby="calories-error"
                 placeholder="Enter total calories"
-                className="p-1.5 border bg-gray-100 rounded focus:outline outline-primary"
+                className="p-1.5 border bg-gray-100 rounded focus:outline outline-[#5DBF0F]"
               />
               <span
                 id="calories-error"
@@ -217,7 +217,7 @@ const AddRecipe = () => {
                 aria-required="true"
                 aria-describedby="cookingTime-error"
                 placeholder="Total cooking time in mins."
-                className="p-1.5 border bg-gray-100 rounded focus:outline outline-primary"
+                className="p-1.5 border bg-gray-100 rounded focus:outline outline-[#5DBF0F]"
               />
               <span
                 id="cookingTime-error"
@@ -250,7 +250,7 @@ const AddRecipe = () => {
                     aria-required="true"
                     aria-describedby="ingredient-error"
                     placeholder="2 medium onion"
-                    className="p-1.5 border bg-gray-100 rounded focus:outline outline-primary w-full"
+                    className="p-1.5 border bg-gray-100 rounded focus:outline outline-[#5DBF0F] w-full"
                   />
                   <Button
                     content={"Add"}
@@ -297,7 +297,7 @@ const AddRecipe = () => {
                 rows="7"
                 aria-required="true"
                 placeholder="Write your steps here..."
-                className="p-1.5 border bg-gray-100 rounded focus:outline outline-primary w-full resize-none"
+                className="p-1.5 border bg-gray-100 rounded focus:outline outline-[#5DBF0F] w-full resize-none"
               ></textarea>
               {/* All added instructions */}
               <ul className="flex flex-col gap-2">
@@ -330,7 +330,7 @@ const AddRecipe = () => {
         </div>
         <hr className="block md:hidden mt-6" />
         {/* Upload recipe image */}
-        <div className="basis-1/3 rounded-xl shadow-md hover:shadow-primary hover:shadow flex justify-center items-center w-full p-8 max-h-[300px]">
+        <div className="basis-1/3 rounded-xl shadow-md hover:shadow-[#5DBF0F] hover:shadow flex justify-center items-center w-full p-8 max-h-[300px]">
           <label
             htmlFor="image"
             className="font-bold cursor-pointer flex flex-col justify-center items-center w-full"
@@ -354,7 +354,7 @@ const AddRecipe = () => {
             </div>
             <p className="text-center">
               Drag your image here, or
-              <span className="text-primary"> browse</span>
+              <span className="text-[#5DBF0F]"> browse</span>
             </p>
           </label>
           <input

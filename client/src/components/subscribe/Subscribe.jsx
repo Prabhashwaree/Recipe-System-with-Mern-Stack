@@ -33,7 +33,7 @@ const Subscribe = () => {
           icon={
             <IoDiamondOutline className="bg-primary text-light rounded-full p-1.5 text-3xl shadow-lg" />
           }
-          price={"₹999"}
+          price={"LKR999"}
           subtitle={"Best for professionals"}
           featureTitle={"Everything in Basic, plus:"}
           features={[

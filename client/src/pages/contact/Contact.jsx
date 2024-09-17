@@ -34,23 +34,23 @@ const Contact = () => {
   return (
     <section className="box flex flex-col-reverse md:flex-row w-full gap-12 md:gap-6 justify-center items-center">
       {/* Contact page left */}
-      <div className="basis-1/2 lg:basis-1/3 bg-gradient-to-t from-yellow-100 via-yellow-300 to-yellow-400 rounded-2xl px-10 py-10 h-full w-[100%] sm:w-[80%] md:w-[100%] text-center md:text-start">
+      <div className="basis-1/2 lg:basis-1/3 bg-[#A5E571] from-yellow-100 via-yellow-300 to-yellow-400 rounded-2xl px-10 py-10 h-full w-[100%] sm:w-[80%] md:w-[100%] text-center md:text-start">
         <h3 className="font-bold text-xl mb-6">Get in touch</h3>
         <div className="mb-5 flex flex-col gap-1">
           <h4 className="font-bold">Visit us</h4>
           <p>Come say hello to our office</p>
           <p className="font-semibold text-sm">
-            Friends Colony, Mumbai, Maharashtra 400070
+          No: 32/1, Uposatharama rd, North thalpitiya madavilgod, Wadduva.
           </p>
         </div>
         <div className="mb-5 flex flex-col gap-1">
           <h4 className="font-bold">Chat with us</h4>
           <p>Our team is here to help</p>
           <a
-            href="mailto:recipen@abc.com"
+            href="mailto:cookbookrecipeneth@.com"
             className="font-semibold text-sm"
           >
-            recipen@abc.com
+            cookbookrecipeneth@.com
           </a>
         </div>
         <div className="mb-5 flex flex-col gap-1">
@@ -60,7 +60,7 @@ const Contact = () => {
             href="tel:+919876543210"
             className="font-semibold text-sm"
           >
-            +91 9876543210
+            +94 774 914 870
           </a>
         </div>
         <div className="mb-5 flex flex-col gap-3">
@@ -114,7 +114,7 @@ const Contact = () => {
             <Input
               type={"text"}
               id={"firstName"}
-              icon={<AiOutlineUser />}
+              icon={<AiOutlineUser color="#5DBF0F"/>}
               handleChange={handleChange}
               value={formDetails.firstName}
               label={"First Name"}
@@ -127,7 +127,7 @@ const Contact = () => {
             <Input
               type={"text"}
               id={"lastName"}
-              icon={<AiOutlineUser />}
+              icon={<AiOutlineUser color="#5DBF0F"/>}
               handleChange={handleChange}
               value={formDetails.lastName}
               label={"Last Name"}
@@ -141,7 +141,7 @@ const Contact = () => {
           <Input
             type={"email"}
             id={"email"}
-            icon={<IoMailOutline />}
+            icon={<IoMailOutline color="#5DBF0F"/>}
             handleChange={handleChange}
             value={formDetails.email}
             label={"Email"}

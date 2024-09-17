@@ -25,7 +25,7 @@ const BackToTop = () => {
     <div className={`fixed bottom-8 left-6 ${isVisible ? "block" : "hidden"}`}>
       <MdKeyboardArrowUp
         onClick={scrollToTop}
-        className="animate-bounce text-5xl bg-primary rounded-full shadow shadow-primaryLight cursor-pointer text-light p-3"
+        className="animate-bounce text-5xl bg-[#5DBF0F] rounded-full shadow shadow-primaryLight cursor-pointer text-light p-3"
       />
     </div>
   );

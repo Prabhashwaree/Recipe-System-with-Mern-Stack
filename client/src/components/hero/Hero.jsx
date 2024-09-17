@@ -7,11 +7,11 @@ const Hero = () => {
   return (
     <section className="box h-[82vh] flex flex-col-reverse md:flex-row justify-between gap-8 md:gap-16">
       <div className="flex flex-col items-center md:items-start justify-center basis-1/2 gap-4">
-        <span className="text-primary text-sm px-4 py-1 rounded-full border-2 border-primary max-w-max">
+        <span className="text-[#5DBF0F] text-sm px-4 py-1 rounded-full border-2 border-[#5DBF0F] max-w-max">
           Feast. Share. Connect.
         </span>
         <h2 className="font-bold text-3xl md:text-5xl text-center md:text-start">
-          Welcome to <span className="text-primary">Recipen</span>
+          Welcome to <span className="text-[#5DBF0F]">Recipen</span>
         </h2>
         <p className="text-gray-600 text-center md:text-start">
           Where food lovers unite to discover mouthwatering recipes, delightful
@@ -28,7 +28,7 @@ const Hero = () => {
           />
         </Link>
       </div>
-      <div className="basis-1/2 bg-hero bg-no-repeat bg-cover bg-center rounded-xl"></div>
+      <div className="basis-1/2 bg-[url('/src/assets/home_mainimg.jpg')] bg-no-repeat bg-cover bg-center rounded-xl"></div>
     </section>
   );
 };

@@ -154,7 +154,7 @@ const SingleBlog = () => {
             {/* Blog author & date */}
             <div className="flex justify-between items-center mb-6">
               <h3 className="flex text-sm md:text-lg gap-2 items-center font-bold">
-                <BsFillPersonFill className="text-primary" />
+                <BsFillPersonFill className="text-[#5DBF0F]" />
                 {data?.author?.name}
               </h3>
               <span className="flex gap-2 items-center text-sm">
@@ -177,7 +177,7 @@ const SingleBlog = () => {
               <Input
                 type={"text"}
                 id={"name"}
-                icon={<AiOutlineUser />}
+                icon={<AiOutlineUser color="#5DBF0F"/>}
                 handleChange={handleChange}
                 value={formDetails.name}
                 label={"Name"}
@@ -186,7 +186,7 @@ const SingleBlog = () => {
               <Input
                 type={"email"}
                 id={"email"}
-                icon={<IoMailOutline />}
+                icon={<IoMailOutline color="#5DBF0F"/>}
                 handleChange={handleChange}
                 value={formDetails.email}
                 label={"Email"}

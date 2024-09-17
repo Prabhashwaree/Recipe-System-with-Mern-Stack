@@ -91,7 +91,7 @@ const AddBlog = () => {
                 aria-required="true"
                 aria-describedby="title-error"
                 placeholder="Enter blog title"
-                className="p-1.5 border bg-gray-100 rounded focus:outline outline-primary"
+                className="p-1.5 border bg-gray-100 rounded focus:outline outline-[#5DBF0F]"
               />
               <span
                 id="title-error"
@@ -119,7 +119,7 @@ const AddBlog = () => {
                 rows="10"
                 aria-required="true"
                 placeholder="You can write your content in markdown..."
-                className="p-1.5 border bg-gray-100 rounded focus:outline outline-primary w-full resize-none mb-4"
+                className="p-1.5 border bg-gray-100 rounded focus:outline outline-[#5DBF0F] w-full resize-none mb-4"
               ></textarea>
               <hr />
               <div className="flex flex-col gap-3">
@@ -137,7 +137,7 @@ const AddBlog = () => {
         </div>
         <hr className="block md:hidden mt-6" />
         {/* Upload recipe image */}
-        <div className="basis-1/3 rounded-xl shadow-md hover:shadow-primary hover:shadow flex justify-center items-center w-full p-8 max-h-[300px]">
+        <div className="basis-1/3 rounded-xl shadow-md hover:shadow-[#5DBF0F] hover:shadow flex justify-center items-center w-full p-8 max-h-[300px]">
           <label
             htmlFor="image"
             className="font-bold cursor-pointer flex flex-col justify-center items-center"

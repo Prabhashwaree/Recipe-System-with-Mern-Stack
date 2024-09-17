@@ -1,4 +1,5 @@
 import logo from "./logo.webp";
+import logoLogin from "./logo_login.png";
 import logoNoBg from "./logo_nobg.webp";
 import profileBg from "./profile_details.svg";
 import errorAnimation from "./error.json";
@@ -10,7 +11,7 @@ import photo from "./photo.svg";
 
 export {
   logo,
-  logoNoBg,
+  logoLogin,
   profileBg,
   errorAnimation,
   paymentSuccessful,

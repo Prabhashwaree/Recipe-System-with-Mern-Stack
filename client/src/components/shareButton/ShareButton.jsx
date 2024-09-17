@@ -19,7 +19,7 @@ const ShareButton = ({ url }) => {
   return (
     <div className="relative inline-block">
       <AiOutlineShareAlt
-        className="text-2xl text-primary cursor-pointer"
+        className="text-2xl text-[#5DBF0F] cursor-pointer"
         onClick={toggleMenu}
       />
       {isMenuOpen && (

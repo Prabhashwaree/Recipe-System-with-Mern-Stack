@@ -47,7 +47,7 @@ const index = ({ isCollapsed, setIsCollapsed }) => {
               alt={user?.name}
               src={user?.profilePicture}
               sx={{ width: 48, height: 48 }}
-              className="rounded-full border-primary border-2 -mr-2"
+              className="rounded-full border-[#5DBF0F] border-2 -mr-2"
             />
           </div>
           {!isCollapsed && (
@@ -62,7 +62,7 @@ const index = ({ isCollapsed, setIsCollapsed }) => {
         <div className="flex flex-col gap-6 pl-2">
           <NavLink
             to={"/"}
-            className={`rounded-lg hover:bg-gradient-to-r hover:from-primary hover:to-primaryLight p-2 flex gap-2 items-center text-gray-600 hover:text-light ${
+            className={`rounded-lg hover:bg-[#5DBF0F] hover:from-[#5DBF0F] hover:to-[#5DBF0F] p-2 flex gap-2 items-center text-gray-600 hover:text-light ${
               isCollapsed && "justify-center"
             }`}
           >
@@ -71,7 +71,7 @@ const index = ({ isCollapsed, setIsCollapsed }) => {
           </NavLink>
           <NavLink
             to={"/dashboard/users"}
-            className={`rounded-lg hover:bg-gradient-to-r hover:from-primary hover:to-primaryLight p-2 flex gap-2 items-center text-gray-600 hover:text-light ${
+            className={`rounded-lg hover:bg-gradient-to-r hover:from-[#5DBF0F] hover:to-[#5DBF0F] p-2 flex gap-2 items-center text-gray-600 hover:text-light ${
               isCollapsed && "justify-center"
             }`}
           >
@@ -80,7 +80,7 @@ const index = ({ isCollapsed, setIsCollapsed }) => {
           </NavLink>
           <NavLink
             to={"/dashboard/recipes"}
-            className={`rounded-lg hover:bg-gradient-to-r hover:from-primary hover:to-primaryLight p-2 flex gap-2 items-center text-gray-600 hover:text-light ${
+            className={`rounded-lg hover:bg-gradient-to-r hover:from-[#5DBF0F] hover:to-[#5DBF0F] p-2 flex gap-2 items-center text-gray-600 hover:text-light ${
               isCollapsed && "justify-center"
             }`}
           >
@@ -89,7 +89,7 @@ const index = ({ isCollapsed, setIsCollapsed }) => {
           </NavLink>
           <NavLink
             to={"/dashboard/blogs"}
-            className={`rounded-lg hover:bg-gradient-to-r hover:from-primary hover:to-primaryLight p-2 flex gap-2 items-center text-gray-600 hover:text-light ${
+            className={`rounded-lg hover:bg-gradient-to-r hover:from-[#5DBF0F] hover:to-[#5DBF0F] p-2 flex gap-2 items-center text-gray-600 hover:text-light ${
               isCollapsed && "justify-center"
             }`}
           >
@@ -100,7 +100,7 @@ const index = ({ isCollapsed, setIsCollapsed }) => {
       </div>
       <hr />
       <div
-        className={`mb-4 flex gap-2 items-center text-gray-600 rounded-lg hover:bg-gradient-to-r hover:from-primary hover:to-primaryLight hover:text-light p-2 cursor-pointer ml-2 ${
+        className={`mb-4 flex gap-2 items-center text-gray-600 rounded-lg hover:bg-gradient-to-r hover:from-[#5DBF0F] hover:to-[#5DBF0F] hover:text-light p-2 cursor-pointer ml-2 ${
           isCollapsed && "justify-center"
         }`}
         onClick={handleLogout}

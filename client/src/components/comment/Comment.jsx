@@ -29,7 +29,7 @@ const Comment = ({ comment, userId, handleDeleteComment }) => {
         alt={comment?.user?.name}
         src={comment?.user?.profilePicture}
         sx={{ width: 60, height: 60 }}
-        className="border-2 border-primary shadow-lg"
+        className="border-2 border-[#5DBF0F] shadow-lg"
       />
       <div className="flex flex-col gap-1 w-full">
         <div className="flex justify-between flex-col sm:flex-row items-center">

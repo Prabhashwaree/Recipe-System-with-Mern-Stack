@@ -108,7 +108,7 @@ const SingleCard = ({ singleData, type }) => {
       {/* Read more link */}
       <Link
         to={`/${type}/${singleData?._id}`}
-        className="flex gap-2 items-center p-4 mt-4 max-w-max hover:border-primary hover:text-primary"
+        className="flex gap-2 items-center p-4 mt-4 max-w-max hover:border-[#5DBF0F] hover:text-[#5DBF0F]"
       >
         Read more
         <BsArrowUpRight />

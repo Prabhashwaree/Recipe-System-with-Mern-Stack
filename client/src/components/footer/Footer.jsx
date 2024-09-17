@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="border-b-4 border-primary bg-yellow-50 pt-12 mt-24">
+    <footer className="border-b-4 border-primary bg-[#E6FBD5] pt-12 mt-24">
       {/* Footer top */}
       <div className="box flex flex-col md:flex-row  justify-between border-b-2 border-yellow-100 pb-10 gap-8">
         {/* Footer top left */}
@@ -80,7 +80,7 @@ const Footer = () => {
         {/* Footer social links */}
         <ul className="flex justify-center gap-6 text-xl">
           <motion.li
-            className="border border-primary p-1 rounded-full hover:text-gray-500"
+            className="border border-[#5DBF0F] p-1 rounded-full hover:text-gray-500"
             whileHover={{ y: -4 }}
           >
             <a
@@ -91,7 +91,7 @@ const Footer = () => {
             </a>
           </motion.li>
           <motion.li
-            className="border border-primary p-1 rounded-full hover:text-blue-400"
+            className="border border-[#5DBF0F] p-1 rounded-full hover:text-blue-400"
             whileHover={{ y: -4 }}
           >
             <a
@@ -102,7 +102,7 @@ const Footer = () => {
             </a>
           </motion.li>
           <motion.li
-            className="border border-primary p-1 rounded-full hover:text-blue-600"
+            className="border border-[#5DBF0F] p-1 rounded-full hover:text-blue-600"
             whileHover={{ y: -4 }}
           >
             <a

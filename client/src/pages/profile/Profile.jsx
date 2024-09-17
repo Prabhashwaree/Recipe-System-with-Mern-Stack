@@ -88,14 +88,14 @@ const Profile = () => {
                 alt={user?.name}
                 src={formDetails.image || user?.profilePicture}
                 sx={{ width: 80, height: 80 }}
-                className="border-2 border-primary"
+                className="border-2 border-[#5DBF0F]"
               />
             )}
 
             <div className="flex flex-col">
               <label
                 htmlFor="image"
-                className="bg-primaryLight hover:bg-primary text-light py-2 px-4 shadow-lg font-semibold text-center rounded max-w-max text-sm cursor-pointer"
+                className="bg-[#5DBF0F] hover:bg-[#5DBF0F] text-light py-2 px-4 shadow-lg font-semibold text-center rounded max-w-max text-sm cursor-pointer"
               >
                 Change profile
               </label>
@@ -110,7 +110,7 @@ const Profile = () => {
           <Input
             type={"text"}
             id={"name"}
-            icon={<AiOutlineUser />}
+            icon={<AiOutlineUser color="#5DBF0F"/>}
             handleChange={handleChange}
             value={formDetails.name}
             label={"Full Name"}
@@ -119,7 +119,7 @@ const Profile = () => {
           <Input
             type={"email"}
             id={"email"}
-            icon={<IoMailOutline />}
+            icon={<IoMailOutline color="#5DBF0F"/>}
             handleChange={handleChange}
             value={formDetails.email}
             label={"Email"}
@@ -128,7 +128,7 @@ const Profile = () => {
           <Input
             type={"password"}
             id={"password"}
-            icon={<BiLockAlt />}
+            icon={<BiLockAlt color="#5DBF0F"/>}
             handleChange={handleChange}
             value={formDetails.password}
             label={"Password"}

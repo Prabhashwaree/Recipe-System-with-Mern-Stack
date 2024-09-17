@@ -213,7 +213,7 @@ const SingleRecipe = () => {
               </div>
               <div className="flex justify-between items-center">
                 <p className="flex gap-2 items-center font-semibold">
-                  <LuChefHat className="text-primary" />
+                  <LuChefHat className="text-[#5DBF0F]" />
                   {data?.author?.name}
                 </p>
                 <div className="flex gap-2 p-2 bg-light rounded-l-lg">
@@ -244,14 +244,14 @@ const SingleRecipe = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-between w-2/3 mx-auto">
                 <div className="flex flex-col gap-1 items-center">
                   <BsStopwatch className="text-5xl text-gray-800" />
-                  <h3 className="font-bold text-xl text-primary">
+                  <h3 className="font-bold text-xl text-[#5DBF0F]">
                     Cooking Time
                   </h3>
                   <p>{data?.cookingTime} minutes</p>
                 </div>
                 <div className="flex flex-col gap-1 items-center text-gray-800">
                   <LiaWeightSolid className="text-5xl" />
-                  <h3 className="font-bold text-xl text-primary">Calories</h3>
+                  <h3 className="font-bold text-xl text-[#5DBF0F]">Calories</h3>
                   <p>{data?.calories} cal</p>
                 </div>
               </div>
@@ -307,7 +307,7 @@ const SingleRecipe = () => {
               <Input
                 type={"text"}
                 id={"name"}
-                icon={<AiOutlineUser />}
+                icon={<AiOutlineUser color="#5DBF0F"/>}
                 handleChange={handleChange}
                 value={formDetails.name}
                 label={"Name"}
@@ -316,7 +316,7 @@ const SingleRecipe = () => {
               <Input
                 type={"email"}
                 id={"email"}
-                icon={<IoMailOutline />}
+                icon={<IoMailOutline color="#5DBF0F"/>}
                 handleChange={handleChange}
                 value={formDetails.email}
                 label={"Email"}
@@ -337,7 +337,7 @@ const SingleRecipe = () => {
                   required
                   aria-required="true"
                   placeholder="Leave a comment..."
-                  className="py-2 px-4 border bg-gray-100 rounded-lg focus:outline outline-primary"
+                  className="py-2 px-4 border bg-gray-100 rounded-lg focus:outline outline-[#5DBF0F]"
                 />
               </div>
               <Button
