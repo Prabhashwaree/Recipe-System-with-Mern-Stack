@@ -25,6 +25,7 @@ app.use(express.json());
 app.use("/api/auth", require("./routes/authRoutes"));
 app.use("/api/user", require("./routes/userRoutes"));
 app.use("/api/recipe", require("./routes/recipeRoutes"));
+app.use("/api/ingredient", require("./routes/ingredientsRoutes"));
 app.use("/api/blog", require("./routes/blogRoutes"));
 app.use("/api/stripe", require("./routes/subscriptionRoutes"));
 

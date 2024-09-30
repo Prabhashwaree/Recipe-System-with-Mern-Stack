@@ -12,6 +12,12 @@ const schema = mongoose.Schema(
     description: {
       type: String,
     },
+    quantity:{
+      type:Number
+    },
+    price:{
+      type:Number
+    },
     image: { type: String },
     ratings: [
       {
