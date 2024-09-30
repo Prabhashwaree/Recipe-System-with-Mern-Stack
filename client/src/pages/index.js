@@ -21,9 +21,17 @@ const SingleBlog = lazy(() => import("./blogs/SingleBlog"));
 const MyBlogs = lazy(() => import("./blogs/MyBlogs"));
 const EditBlog = lazy(() => import("./blogs/EditBlog"));
 
+const Ingredient = lazy(() => import("./ingredient/Ingredient"));
+const SingleIngredient = lazy(() => import("./ingredient/SingleIngredient"));
+const SavedIngredient = lazy(() => import("./ingredient/SavedIngredient"));
+const AddIngredient = lazy(() => import("./ingredient/AddIngredient"));
+const MyIngredient = lazy(() => import("./ingredient/MyIngredient"));
+const EditIngredient = lazy(() => import("./ingredient/EditIngredient"));
+
 const Users = lazy(() => import("./dashboard/Users"));
 const DashboardRecipes = lazy(() => import("./dashboard/DashboardRecipes"));
 const DashboardBlogs = lazy(() => import("./dashboard/DashboardBlogs"));
+const DashboardIngredients = lazy(() => import("./dashboard/DashboardIngredients"));
 
 const SignIn = lazy(() => import("./auth/SignIn"));
 const SignUp = lazy(() => import("./auth/SignUp"));
@@ -43,8 +51,15 @@ export {
   SingleBlog,
   MyBlogs,
   EditBlog,
+  Ingredient,
+  SingleIngredient,
+  SavedIngredient,
+  AddIngredient,
+  MyIngredient,
+  EditIngredient,
   Users,
   DashboardRecipes,
+  DashboardIngredients,
   DashboardBlogs,
   Error,
   CheckoutSuccess,
