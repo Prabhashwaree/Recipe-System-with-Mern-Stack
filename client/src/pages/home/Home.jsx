@@ -2,12 +2,14 @@ import React from "react";
 import { Hero, HomeCategories, Subscribe } from "../../components";
 import { useGetRecipesQuery } from "../../features/recipe/recipeApiSlice";
 import { useGetBlogsQuery } from "../../features/blog/blogApiSlice";
+import { useGetIngredientsQuery } from "../../features/ingredient/ingredientApiSlice";
 import useAuth from "../../hooks/useAuth";
 
 const Home = () => {
   const user = useAuth();
   const recipes = useGetRecipesQuery();
   const blogs = useGetBlogsQuery();
+  const ingredient = useGetIngredientsQuery();
 
   return (
     <>
@@ -24,6 +26,11 @@ const Home = () => {
         title={"blog"}
         data={blogs?.data}
         isLoading={blogs?.isLoading}
+      />
+       <HomeCategories
+        title={"ingredient"}
+        data={ingredient?.data}
+        isLoading={ingredient?.isLoading}
       />
     </>
   );

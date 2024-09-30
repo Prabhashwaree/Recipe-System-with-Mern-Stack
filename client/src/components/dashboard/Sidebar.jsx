@@ -6,6 +6,7 @@ import { BiHomeAlt2 } from "react-icons/bi";
 import { BsFileEarmarkText } from "react-icons/bs";
 import { HiOutlineUsers, HiOutlineLogout } from "react-icons/hi";
 import { IoRestaurantOutline } from "react-icons/io5";
+import { IoGridOutline } from "react-icons/io5";
 import { Logo } from "..";
 import { Avatar as MuiAvatar } from "@mui/material";
 import useAuth from "../../hooks/useAuth";
@@ -86,6 +87,15 @@ const index = ({ isCollapsed, setIsCollapsed }) => {
           >
             <IoRestaurantOutline />
             {!isCollapsed && "Recipes"}
+          </NavLink>
+          <NavLink
+            to={"/dashboard/ingredients"}
+            className={`rounded-lg hover:bg-gradient-to-r hover:from-[#5DBF0F] hover:to-[#5DBF0F] p-2 flex gap-2 items-center text-gray-600 hover:text-light ${
+              isCollapsed && "justify-center"
+            }`}
+          >
+            <IoGridOutline />
+            {!isCollapsed && "Ingredients"}
           </NavLink>
           <NavLink
             to={"/dashboard/blogs"}
