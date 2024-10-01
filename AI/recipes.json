@@ -1,0 +1,731 @@
+{
+    "spaghetti_carbonara": {
+        "name": "Spaghetti Carbonara",
+        "ingredients": [
+            "Spaghetti",
+            "Eggs",
+            "Parmesan Cheese",
+            "Pancetta"
+        ],
+        "instructions": [
+            "Cook spaghetti",
+            "Fry pancetta",
+            "Mix eggs and cheese",
+            "Combine all and serve."
+        ]
+    },
+    "pizza": {
+        "name": "Pizza",
+        "ingredients": [
+            "Pizza dough",
+            "Tomato sauce",
+            "Cheese",
+            "Pepperoni"
+        ],
+        "instructions": [
+            "Spread sauce on dough",
+            "Add cheese and toppings",
+            "Bake in oven."
+        ]
+    },
+    "burger": {
+        "name": "Burger",
+        "ingredients": [
+            "Buns",
+            "Ground beef",
+            "Lettuce",
+            "Tomato",
+            "Cheese"
+        ],
+        "instructions": [
+            "Grill beef patty",
+            "Assemble ingredients inside buns and serve."
+        ]
+    },
+    "tacos": {
+        "name": "Tacos",
+        "ingredients": [
+            "Taco shells",
+            "Ground beef",
+            "Cheese",
+            "Lettuce",
+            "Salsa"
+        ],
+        "instructions": [
+            "Cook beef",
+            "Assemble ingredients in taco shells and serve."
+        ]
+    },
+    "chicken_curry": {
+        "name": "Chicken Curry",
+        "ingredients": [
+            "Chicken",
+            "Curry powder",
+            "Coconut milk",
+            "Onions",
+            "Garlic"
+        ],
+        "instructions": [
+            "Cook onions and garlic",
+            "Add chicken and curry powder",
+            "Stir in coconut milk and simmer."
+        ]
+    },
+    "sushi": {
+        "name": "Sushi",
+        "ingredients": [
+            "Sushi rice",
+            "Nori",
+            "Raw fish",
+            "Soy sauce"
+        ],
+        "instructions": [
+            "Cook sushi rice",
+            "Assemble rice and fish in nori",
+            "Serve with soy sauce."
+        ]
+    },
+    "lasagna": {
+        "name": "Lasagna",
+        "ingredients": [
+            "Lasagna noodles",
+            "Ricotta cheese",
+            "Ground beef",
+            "Tomato sauce",
+            "Mozzarella"
+        ],
+        "instructions": [
+            "Cook noodles",
+            "Layer with meat, sauce, and cheese",
+            "Bake until bubbly."
+        ]
+    },
+    "caesar_salad": {
+        "name": "Caesar Salad",
+        "ingredients": [
+            "Romaine lettuce",
+            "Croutons",
+            "Parmesan",
+            "Caesar dressing",
+            "Chicken (optional)"
+        ],
+        "instructions": [
+            "Toss lettuce with dressing",
+            "Add croutons, parmesan, and chicken if desired."
+        ]
+    },
+    "pancakes": {
+        "name": "Pancakes",
+        "ingredients": [
+            "Flour",
+            "Milk",
+            "Eggs",
+            "Butter",
+            "Baking powder",
+            "Maple syrup"
+        ],
+        "instructions": [
+            "Mix dry ingredients",
+            "Add milk and eggs",
+            "Cook on griddle",
+            "Serve with butter and syrup."
+        ]
+    },
+    "pad_thai": {
+        "name": "Pad Thai",
+        "ingredients": [
+            "Rice noodles",
+            "Eggs",
+            "Shrimp",
+            "Bean sprouts",
+            "Peanuts",
+            "Pad Thai sauce"
+        ],
+        "instructions": [
+            "Cook noodles",
+            "Fry eggs and shrimp",
+            "Mix in noodles, sauce, and bean sprouts",
+            "Garnish with peanuts and serve."
+        ]
+    },
+    "beef_stroganoff": {
+        "name": "Beef Stroganoff",
+        "ingredients": [
+            "Beef strips",
+            "Mushrooms",
+            "Onions",
+            "Sour cream",
+            "Egg noodles"
+        ],
+        "instructions": [
+            "Cook beef and onions",
+            "Add mushrooms and sour cream",
+            "Serve over egg noodles."
+        ]
+    },
+    "french_toast": {
+        "name": "French Toast",
+        "ingredients": [
+            "Bread",
+            "Eggs",
+            "Milk",
+            "Cinnamon",
+            "Butter",
+            "Maple syrup"
+        ],
+        "instructions": [
+            "Whisk eggs and milk",
+            "Dip bread slices",
+            "Fry in butter",
+            "Serve with syrup."
+        ]
+    },
+    "guacamole": {
+        "name": "Guacamole",
+        "ingredients": [
+            "Avocados",
+            "Onions",
+            "Tomatoes",
+            "Lime juice",
+            "Salt",
+            "Cilantro"
+        ],
+        "instructions": [
+            "Mash avocados",
+            "Mix in onions, tomatoes, lime juice, and salt",
+            "Garnish with cilantro."
+        ]
+    },
+    "butter_chicken": {
+        "name": "Butter Chicken",
+        "ingredients": [
+            "Chicken",
+            "Butter",
+            "Cream",
+            "Tomatoes",
+            "Garam Masala",
+            "Ginger",
+            "Garlic"
+        ],
+        "instructions": [
+            "Marinate chicken",
+            "Cook with tomatoes, butter, and spices",
+            "Add cream and simmer."
+        ]
+    },
+    "paneer_tikka": {
+        "name": "Paneer Tikka",
+        "ingredients": [
+            "Paneer",
+            "Yogurt",
+            "Spices (Garam Masala, Turmeric, Cumin)",
+            "Lemon juice",
+            "Skewers"
+        ],
+        "instructions": [
+            "Marinate paneer in yogurt and spices",
+            "Grill or bake until golden."
+        ]
+    },
+    "biryani": {
+        "name": "Biryani",
+        "ingredients": [
+            "Basmati rice",
+            "Chicken/Mutton/Vegetables",
+            "Biryani masala",
+            "Onions",
+            "Tomatoes",
+            "Yogurt"
+        ],
+        "instructions": [
+            "Cook meat and rice separately",
+            "Layer with fried onions and spices",
+            "Steam together."
+        ]
+    },
+    "aloo_gobi": {
+        "name": "Aloo Gobi",
+        "ingredients": [
+            "Potatoes",
+            "Cauliflower",
+            "Turmeric",
+            "Cumin",
+            "Coriander",
+            "Ginger",
+            "Garlic"
+        ],
+        "instructions": [
+            "Fry cumin, ginger, garlic",
+            "Add potatoes and cauliflower",
+            "Cook with spices."
+        ]
+    },
+    "masala_dosa": {
+        "name": "Masala Dosa",
+        "ingredients": [
+            "Dosa batter (Rice and Lentils)",
+            "Potatoes",
+            "Mustard seeds",
+            "Onions",
+            "Turmeric",
+            "Curry leaves"
+        ],
+        "instructions": [
+            "Prepare dosa",
+            "Fill with spiced potato mixture",
+            "Serve with chutney."
+        ]
+    },
+    "kung_pao_chicken": {
+        "name": "Kung Pao Chicken",
+        "ingredients": [
+            "Chicken",
+            "Peanuts",
+            "Dried chilies",
+            "Soy sauce",
+            "Vinegar",
+            "Garlic",
+            "Ginger"
+        ],
+        "instructions": [
+            "Stir-fry chicken with garlic and ginger",
+            "Add chilies and sauce",
+            "Toss with peanuts."
+        ]
+    },
+    "sweet_and_sour_pork": {
+        "name": "Sweet and Sour Pork",
+        "ingredients": [
+            "Pork",
+            "Pineapple",
+            "Bell peppers",
+            "Soy sauce",
+            "Vinegar",
+            "Sugar",
+            "Cornstarch"
+        ],
+        "instructions": [
+            "Deep fry pork",
+            "Stir-fry with pineapple and peppers",
+            "Add sweet and sour sauce."
+        ]
+    },
+    "fried_rice": {
+        "name": "Fried Rice",
+        "ingredients": [
+            "Cooked rice",
+            "Eggs",
+            "Vegetables",
+            "Soy sauce",
+            "Green onions",
+            "Garlic",
+            "Sesame oil"
+        ],
+        "instructions": [
+            "Stir-fry vegetables and eggs",
+            "Add rice, soy sauce, and sesame oil."
+        ]
+    },
+    "spring_rolls": {
+        "name": "Spring Rolls",
+        "ingredients": [
+            "Spring roll wrappers",
+            "Cabbage",
+            "Carrots",
+            "Mushrooms",
+            "Soy sauce",
+            "Garlic",
+            "Oil for frying"
+        ],
+        "instructions": [
+            "Stir-fry vegetables",
+            "Wrap in spring roll wrappers",
+            "Deep fry until golden."
+        ]
+    },
+    "chow_mein": {
+        "name": "Chow Mein",
+        "ingredients": [
+            "Noodles",
+            "Cabbage",
+            "Carrots",
+            "Bell peppers",
+            "Soy sauce",
+            "Oyster sauce",
+            "Garlic",
+            "Ginger"
+        ],
+        "instructions": [
+            "Stir-fry vegetables and noodles",
+            "Toss with soy and oyster sauce",
+            "Serve hot."
+        ]
+    },
+    "kottu_roti": {
+        "name": "Kottu Roti",
+        "ingredients": [
+            "Godamba roti",
+            "Eggs",
+            "Chicken",
+            "Vegetables",
+            "Curry powder",
+            "Soy sauce"
+        ],
+        "instructions": [
+            "Chop roti into strips",
+            "Stir-fry with eggs, chicken, vegetables, and spices",
+            "Serve hot."
+        ]
+    },
+    "hoppers": {
+        "name": "Hoppers (Appam)",
+        "ingredients": [
+            "Rice flour",
+            "Coconut milk",
+            "Yeast",
+            "Sugar",
+            "Salt",
+            "Eggs (optional)"
+        ],
+        "instructions": [
+            "Make a batter with rice flour and coconut milk",
+            "Ferment with yeast",
+            "Cook in hopper pan and add egg if desired."
+        ]
+    },
+    "sambol": {
+        "name": "Sambol (Pol Sambol)",
+        "ingredients": [
+            "Grated coconut",
+            "Chili powder",
+            "Onions",
+            "Lime juice",
+            "Salt"
+        ],
+        "instructions": [
+            "Mix grated coconut, chili powder, onions, lime juice, and salt together",
+            "Serve as a side."
+        ]
+    },
+    "lamprais": {
+        "name": "Lamprais",
+        "ingredients": [
+            "Rice",
+            "Meat curry (Chicken, Beef, or Pork)",
+            "Eggplant",
+            "Frikkadels (meatballs)",
+            "Banana leaf"
+        ],
+        "instructions": [
+            "Cook rice and meat curry",
+            "Wrap rice, curry, and accompaniments in banana leaf",
+            "Steam or bake until heated through."
+        ]
+    },
+    "kiribath": {
+        "name": "Kiribath (Milk Rice)",
+        "ingredients": [
+            "White rice",
+            "Coconut milk",
+            "Salt"
+        ],
+        "instructions": [
+            "Cook rice with coconut milk until thick and creamy",
+            "Shape into blocks and serve with lunu miris (spicy sambol)."
+        ]
+    },
+    "fish_ambul_thiyal": {
+        "name": "Fish Ambul Thiyal",
+        "ingredients": [
+            "Fish (Tuna or similar)",
+            "Goraka",
+            "Curry powder",
+            "Garlic",
+            "Pepper",
+            "Salt"
+        ],
+        "instructions": [
+            "Marinate fish with goraka and spices",
+            "Cook in a pan until fish is dried and well-coated with spices."
+        ]
+    },
+    "parippu": {
+        "name": "Parippu (Lentil Curry)",
+        "ingredients": [
+            "Red lentils",
+            "Coconut milk",
+            "Onions",
+            "Garlic",
+            "Curry leaves",
+            "Turmeric"
+        ],
+        "instructions": [
+            "Cook lentils with turmeric and water",
+            "Add sautéed onions, garlic, and curry leaves",
+            "Simmer with coconut milk."
+        ]
+    },
+    "watalappam": {
+        "name": "Watalappam",
+        "ingredients": [
+            "Coconut milk",
+            "Jaggery",
+            "Eggs",
+            "Cardamom",
+            "Cashews",
+            "Nutmeg"
+        ],
+        "instructions": [
+            "Beat eggs with jaggery and coconut milk",
+            "Add spices",
+            "Steam or bake until set",
+            "Garnish with cashews."
+        ]
+    },
+    "guacamole": {
+        "name": "Guacamole",
+        "ingredients": [
+            "Avocados",
+            "Lime juice",
+            "Onions",
+            "Tomatoes",
+            "Cilantro",
+            "Salt"
+        ],
+        "instructions": [
+            "Mash avocados",
+            "Mix with lime juice, onions, tomatoes, cilantro, and salt."
+        ]
+    },
+    "enchiladas": {
+        "name": "Enchiladas",
+        "ingredients": [
+            "Tortillas",
+            "Chicken",
+            "Cheese",
+            "Enchilada sauce",
+            "Onions"
+        ],
+        "instructions": [
+            "Fill tortillas with chicken and cheese",
+            "Roll and cover with enchilada sauce",
+            "Bake until bubbly."
+        ]
+    },
+    "risotto": {
+        "name": "Risotto",
+        "ingredients": [
+            "Arborio rice",
+            "Chicken broth",
+            "Onions",
+            "Parmesan cheese",
+            "Butter"
+        ],
+        "instructions": [
+            "Sauté onions",
+            "Add rice and broth gradually",
+            "Stir until creamy and add Parmesan."
+        ]
+    },
+    "bruschetta": {
+        "name": "Bruschetta",
+        "ingredients": [
+            "Baguette",
+            "Tomatoes",
+            "Basil",
+            "Garlic",
+            "Olive oil"
+        ],
+        "instructions": [
+            "Toast baguette slices",
+            "Top with tomato mixture of basil, garlic, and olive oil."
+        ]
+    },
+    "ramen": {
+        "name": "Ramen",
+        "ingredients": [
+            "Ramen noodles",
+            "Chicken broth",
+            "Soy sauce",
+            "Eggs",
+            "Green onions",
+            "Pork belly"
+        ],
+        "instructions": [
+            "Cook noodles",
+            "Simmer broth with soy sauce",
+            "Add pork belly and soft-boiled eggs",
+            "Serve hot with green onions."
+        ]
+    },
+    "tempura": {
+        "name": "Tempura",
+        "ingredients": [
+            "Shrimp",
+            "Vegetables",
+            "Tempura batter",
+            "Soy sauce",
+            "Oil for frying"
+        ],
+        "instructions": [
+            "Dip shrimp and vegetables in tempura batter",
+            "Deep fry until crispy and serve with dipping sauce."
+        ]
+    },
+    "ratatouille": {
+        "name": "Ratatouille",
+        "ingredients": [
+            "Eggplant",
+            "Zucchini",
+            "Bell peppers",
+            "Tomatoes",
+            "Garlic",
+            "Olive oil"
+        ],
+        "instructions": [
+            "Slice vegetables",
+            "Layer in a dish",
+            "Bake with garlic and olive oil until tender."
+        ]
+    },
+    "croissant": {
+        "name": "Croissant",
+        "ingredients": [
+            "Flour",
+            "Butter",
+            "Yeast",
+            "Sugar",
+            "Milk"
+        ],
+        "instructions": [
+            "Roll dough with butter",
+            "Fold and layer multiple times",
+            "Bake until golden and flaky."
+        ]
+    },
+    "pad_thai": {
+        "name": "Pad Thai",
+        "ingredients": [
+            "Rice noodles",
+            "Shrimp",
+            "Eggs",
+            "Peanuts",
+            "Bean sprouts",
+            "Fish sauce",
+            "Tamarind paste"
+        ],
+        "instructions": [
+            "Stir-fry noodles with shrimp, eggs, and vegetables",
+            "Add fish sauce and tamarind paste",
+            "Garnish with peanuts and lime."
+        ]
+    },
+    "green_curry": {
+        "name": "Green Curry",
+        "ingredients": [
+            "Green curry paste",
+            "Coconut milk",
+            "Chicken",
+            "Bamboo shoots",
+            "Thai basil",
+            "Fish sauce"
+        ],
+        "instructions": [
+            "Sauté green curry paste",
+            "Add chicken and coconut milk",
+            "Simmer with vegetables and serve with rice."
+        ]
+    },
+    "moussaka": {
+        "name": "Moussaka",
+        "ingredients": [
+            "Eggplant",
+            "Ground beef",
+            "Tomatoes",
+            "Bechamel sauce",
+            "Cheese"
+        ],
+        "instructions": [
+            "Layer eggplant and ground beef",
+            "Top with bechamel and cheese",
+            "Bake until golden."
+        ]
+    },
+    "tzatziki": {
+        "name": "Tzatziki",
+        "ingredients": [
+            "Greek yogurt",
+            "Cucumbers",
+            "Garlic",
+            "Olive oil",
+            "Dill"
+        ],
+        "instructions": [
+            "Grate cucumbers",
+            "Mix with yogurt, garlic, olive oil, and dill",
+            "Serve as a dip or sauce."
+        ]
+    },
+    "bibimbap": {
+        "name": "Bibimbap",
+        "ingredients": [
+            "Rice",
+            "Vegetables",
+            "Eggs",
+            "Gochujang (chili paste)",
+            "Beef",
+            "Sesame oil"
+        ],
+        "instructions": [
+            "Cook rice",
+            "Arrange vegetables and beef on top",
+            "Top with fried egg and serve with gochujang."
+        ]
+    },
+    "kimchi": {
+        "name": "Kimchi",
+        "ingredients": [
+            "Napa cabbage",
+            "Korean chili powder",
+            "Garlic",
+            "Ginger",
+            "Salt",
+            "Fish sauce"
+        ],
+        "instructions": [
+            "Salt the cabbage",
+            "Mix with garlic, ginger, chili powder, and fish sauce",
+            "Ferment for several days."
+        ]
+    },
+    "feijoada": {
+        "name": "Feijoada",
+        "ingredients": [
+            "Black beans",
+            "Pork",
+            "Sausage",
+            "Garlic",
+            "Onions",
+            "Bay leaves"
+        ],
+        "instructions": [
+            "Cook beans with pork and sausage",
+            "Add garlic, onions, and bay leaves",
+            "Simmer until thick and hearty."
+        ]
+    },
+    "pao_de_queijo": {
+        "name": "Pão de Queijo",
+        "ingredients": [
+            "Tapioca flour",
+            "Cheese",
+            "Eggs",
+            "Milk",
+            "Butter"
+        ],
+        "instructions": [
+            "Mix tapioca flour with cheese, eggs, milk, and butter",
+            "Form into balls and bake until golden."
+        ]
+    }
+}
