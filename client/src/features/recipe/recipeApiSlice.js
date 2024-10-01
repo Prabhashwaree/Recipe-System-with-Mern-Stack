@@ -77,6 +77,13 @@ export const recipeApiSlice = apiSlice.injectEndpoints({
       },
       invalidatesTags: ["recipes"],
     }),
+    predictRecipe: builder.mutation({
+      query: (formData) => ({
+        url: '/predict', 
+        method: 'POST',
+        body: {...formData}, 
+      }),
+    }),
   }),
 });
 
@@ -90,4 +97,5 @@ export const {
   useCommentRecipeMutation,
   useDeleteCommentRecipeMutation,
   useToggleFavoriteMutation,
+  usePredictRecipeMutation 
 } = recipeApiSlice;

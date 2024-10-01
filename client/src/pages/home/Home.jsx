@@ -1,5 +1,11 @@
 import React from "react";
-import { Hero, HomeCategories, Subscribe } from "../../components";
+import {
+  Hero,
+  HomeCategories,
+  Subscribe,
+  Button,
+  HomeAI,
+} from "../../components";
 import { useGetRecipesQuery } from "../../features/recipe/recipeApiSlice";
 import { useGetBlogsQuery } from "../../features/blog/blogApiSlice";
 import { useGetIngredientsQuery } from "../../features/ingredient/ingredientApiSlice";
@@ -27,11 +33,12 @@ const Home = () => {
         data={blogs?.data}
         isLoading={blogs?.isLoading}
       />
-       <HomeCategories
+      <HomeCategories
         title={"ingredient"}
         data={ingredient?.data}
         isLoading={ingredient?.isLoading}
       />
+      <HomeAI isLoading={false} />
     </>
   );
 };
