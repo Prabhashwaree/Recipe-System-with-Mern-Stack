@@ -7,12 +7,18 @@ import { Link, useNavigate } from "react-router-dom";
 import { useSignUpMutation } from "../../features/auth/authApiSlice";
 import { toast } from "react-toastify";
 import useTitle from "../../hooks/useTitle";
+import { useLocation } from "react-router-dom";
 
 const SignUp = () => {
+  const location = useLocation();
+  const queryParams = new URLSearchParams(location.search);
+  const userType = queryParams.get("user");
+
   const [formDetails, setFormDetails] = useState({
     name: "",
     email: "",
     password: "",
+    roles: [],
   });
   const [signUp, { isLoading }] = useSignUpMutation();
   const navigate = useNavigate();
@@ -27,7 +33,7 @@ const SignUp = () => {
 
     try {
       const userData = await toast.promise(
-        signUp({ ...formDetails }).unwrap(),
+        signUp({ ...formDetails, roles: [userType ?? "BasicUser"] }).unwrap(),
         {
           pending: "Please wait...",
           success: "Sign up successfull",
@@ -54,23 +60,17 @@ const SignUp = () => {
           </h2>
           <p className="text-center md:text-left text-sm">
             Already have an account?{" "}
-            <Link
-              to={"/auth/signin"}
-              className="text-[#5DBF0F] font-semibold"
-            >
+            <Link to={"/auth/signin"} className="text-[#5DBF0F] font-semibold">
               Sign In
             </Link>
           </p>
         </div>
         {/* Sign up form */}
-        <form
-          className="flex flex-col gap-4"
-          onSubmit={handleSubmit}
-        >
+        <form className="flex flex-col gap-4" onSubmit={handleSubmit}>
           <Input
             type={"text"}
             id={"name"}
-            icon={<AiOutlineUser color="#5DBF0F"/>}
+            icon={<AiOutlineUser color="#5DBF0F" />}
             handleChange={handleChange}
             value={formDetails.name}
             label={"Full Name"}
@@ -83,7 +83,7 @@ const SignUp = () => {
           <Input
             type={"email"}
             id={"email"}
-            icon={<IoMailOutline color="#5DBF0F"/>}
+            icon={<IoMailOutline color="#5DBF0F" />}
             handleChange={handleChange}
             value={formDetails.email}
             label={"Email"}
@@ -94,7 +94,7 @@ const SignUp = () => {
           <Input
             type={"password"}
             id={"password"}
-            icon={<BiLockAlt color="#5DBF0F"/>}
+            icon={<BiLockAlt color="#5DBF0F" />}
             handleChange={handleChange}
             value={formDetails.password}
             label={"Password"}

@@ -12,6 +12,7 @@ import { useGetIngredientsQuery } from "../../features/ingredient/ingredientApiS
 import useAuth from "../../hooks/useAuth";
 
 const Home = () => {
+  const persist = localStorage.getItem("persist");
   const user = useAuth();
   const recipes = useGetRecipesQuery();
   const blogs = useGetBlogsQuery();
@@ -25,7 +26,7 @@ const Home = () => {
         data={recipes?.data}
         isLoading={recipes?.isLoading}
       />
-      {!user?.roles?.some((role) => role === "ProUser" || role === "Admin") && (
+      {persist !== "true" && !user?.roles?.some((role) => role === "ProUser" || role === "Admin") && (
         <Subscribe />
       )}
       <HomeCategories

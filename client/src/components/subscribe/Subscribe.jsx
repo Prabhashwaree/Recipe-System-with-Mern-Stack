@@ -26,7 +26,7 @@ const Subscribe = () => {
           featureTitle={"Basic includes:"}
           features={["Access to recipes", "Access to blogs", "Save recipes"]}
           btnText={"Continue for free"}
-          link={"/recipe"}
+          link={"/auth/signup?user=BasicUser"}
         />
         <SubscribeCard
           title={"Pro"}
@@ -42,6 +42,7 @@ const Subscribe = () => {
             "Manage your content",
           ]}
           btnText={"Get started"}
+          link={"/auth/signup?user=ProUser"}
         />
       </div>
     </section>
