@@ -1,25 +1,34 @@
 import os
-import torch
+import torch 
 from flask import Flask, request, jsonify
-from torchvision import models, transforms
+from torchvision import transforms,models
 from PIL import Image
 import io
 import json
+from torch import nn
 
 # Initialize the Flask app
 app = Flask(__name__)
 
+# Path to your trained model and recipe JSON file
+MODEL_PATH = r'D:\Others\TOPUP\Test Projects\Recipe-System-with-Mern-Stack\AI\food_resnet50.pth'  # Update with your trained model path
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-recipe_file_path = os.path.join(BASE_DIR, 'recipes.json')
+RECIPE_FILE_PATH = os.path.join(BASE_DIR, 'food.json')
 
-with open(recipe_file_path, 'r') as f:
+# Load the recipe dataset
+with open(RECIPE_FILE_PATH, 'r') as f:
     FOOD_TO_RECIPE = json.load(f)
 
-# Load a pre-trained model (ResNet in this case)
-model = models.resnet50(pretrained=True)
-model.eval()
 
-# Define transformation for image preprocessing
+model = models.resnet50()
+num_classes = 100  # Ensure this matches your number of classes
+model.fc = nn.Linear(model.fc.in_features, num_classes) 
+# Load your trained model
+model.load_state_dict(torch.load(MODEL_PATH))
+model.eval()
+print("Model loaded successfully and is ready for inference.")
+
+# Define the image preprocessing transformations (ensure they match what you used during training)
 preprocess = transforms.Compose([
     transforms.Resize(256),
     transforms.CenterCrop(224),
@@ -41,17 +50,11 @@ def predict_food(image_bytes):
         outputs = model(img_tensor)
         probabilities = torch.nn.functional.softmax(outputs, dim=1)
         confidence, predicted = probabilities.max(1)
+    
+    print(predicted.item(), confidence.item())
 
-    # Mock logic: Consider image as food only if confidence is above a threshold (e.g., 0.5)
-    if confidence.item() < 0.7:
-        return None  # Not confident enough that the image is food
-
-    # Mock mapping: Use predicted class to select a food category
-    food_categories = list(FOOD_TO_RECIPE.keys())
-    print(predicted.item() % len(food_categories))
-    category = food_categories[predicted.item() % len(food_categories)]  # Mock category
-
-    return category
+    # Return the predicted class index and confidence score
+    return predicted.item(), confidence.item()
 
 # Route for recipe prediction
 @app.route('/predict-recipe', methods=['POST'])
@@ -62,12 +65,17 @@ def predict_recipe():
     image = request.files['image'].read()
 
     try:
-        # Predict if the image is food and get the food category
-        food_category = predict_food(image)
-        print(food_category)
+        # Predict the food category and confidence
+        predicted_class, confidence = predict_food(image)
+        print(predicted_class)
 
-        if food_category is None:
+        if confidence < 0.7:  # Confidence threshold
             return jsonify({'error': 'The uploaded image is not a recognized food item'}), 400
+
+        # Get the corresponding food category from the UEC-Food100 dataset
+        food_categories = list(FOOD_TO_RECIPE.keys())
+        food_category = food_categories[predicted_class-1]
+        print(food_category)
 
         # Retrieve the corresponding recipe
         recipe = FOOD_TO_RECIPE.get(food_category)

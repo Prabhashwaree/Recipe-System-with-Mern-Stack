@@ -5,3 +5,4 @@
 /client/.env
 /client/src/common/data.js
 /AI/venv
+/AI/dataset

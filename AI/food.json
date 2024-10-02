@@ -1,0 +1,1384 @@
+{
+    "1": {
+        "name": "Rice",
+        "ingredients": [
+            "Rice",
+            "Water"
+        ],
+        "instructions": [
+            "Rinse the rice under cold water.",
+            "Place rice and water in a pot.",
+            "Bring to a boil, then cover and simmer for 15-20 minutes."
+        ]
+    },
+    "2": {
+        "name": "Eels on Rice",
+        "ingredients": [
+            "Eel fillet",
+            "Rice",
+            "Soy sauce",
+            "Mirin",
+            "Sugar"
+        ],
+        "instructions": [
+            "Grill the eel fillet until fully cooked.",
+            "Mix soy sauce, mirin, and sugar in a pan and heat to create sauce.",
+            "Serve eel on top of cooked rice and drizzle with the sauce."
+        ]
+    },
+    "3": {
+        "name": "Pilaf",
+        "ingredients": [
+            "Rice",
+            "Butter",
+            "Onion",
+            "Chicken broth",
+            "Carrots"
+        ],
+        "instructions": [
+            "Sauté onions and carrots in butter.",
+            "Add rice and stir to coat.",
+            "Pour in chicken broth, bring to a boil, then cover and simmer for 20 minutes."
+        ]
+    },
+    "4": {
+        "name": "Chicken-'n'-Egg on Rice",
+        "ingredients": [
+            "Chicken breast",
+            "Eggs",
+            "Soy sauce",
+            "Sugar",
+            "Rice"
+        ],
+        "instructions": [
+            "Cook chicken in soy sauce and sugar mixture.",
+            "Whisk eggs and pour over the chicken.",
+            "Serve over cooked rice."
+        ]
+    },
+    "5": {
+        "name": "Pork Cutlet on Rice",
+        "ingredients": [
+            "Pork cutlets",
+            "Rice",
+            "Eggs",
+            "Soy sauce",
+            "Bread crumbs"
+        ],
+        "instructions": [
+            "Bread and fry the pork cutlet until golden.",
+            "Whisk eggs with soy sauce and cook lightly.",
+            "Serve pork cutlet on rice with egg mixture on top."
+        ]
+    },
+    "6": {
+        "name": "Beef Curry",
+        "ingredients": [
+            "Beef",
+            "Onions",
+            "Curry powder",
+            "Carrots",
+            "Potatoes"
+        ],
+        "instructions": [
+            "Brown beef and onions in a pot.",
+            "Add carrots, potatoes, and curry powder.",
+            "Simmer until vegetables are tender and beef is cooked through."
+        ]
+    },
+    "7": {
+        "name": "Sushi",
+        "ingredients": [
+            "Sushi rice",
+            "Nori sheets",
+            "Raw fish",
+            "Soy sauce",
+            "Wasabi"
+        ],
+        "instructions": [
+            "Prepare sushi rice and let it cool.",
+            "Place nori sheet on mat, spread rice evenly.",
+            "Add fish and roll tightly, slice into pieces."
+        ]
+    },
+    "8": {
+        "name": "Chicken Rice",
+        "ingredients": [
+            "Rice",
+            "Chicken",
+            "Garlic",
+            "Soy sauce",
+            "Ginger"
+        ],
+        "instructions": [
+            "Sauté garlic and ginger in oil.",
+            "Add chicken and cook until browned.",
+            "Add rice and soy sauce, mix well."
+        ]
+    },
+    "9": {
+        "name": "Fried Rice",
+        "ingredients": [
+            "Rice",
+            "Eggs",
+            "Vegetables",
+            "Soy sauce",
+            "Garlic"
+        ],
+        "instructions": [
+            "Scramble eggs and set aside.",
+            "Sauté garlic and vegetables.",
+            "Add rice and soy sauce, mix in scrambled eggs."
+        ]
+    },
+    "10": {
+        "name": "Tempura Bowl",
+        "ingredients": [
+            "Tempura batter",
+            "Shrimp",
+            "Vegetables",
+            "Rice",
+            "Soy sauce"
+        ],
+        "instructions": [
+            "Dip shrimp and vegetables in tempura batter and fry.",
+            "Serve over cooked rice with soy sauce."
+        ]
+    },
+    "11": {
+        "name": "Bibimbap",
+        "ingredients": [
+            "Rice",
+            "Assorted vegetables",
+            "Eggs",
+            "Gochujang",
+            "Sesame oil"
+        ],
+        "instructions": [
+            "Cook and season vegetables.",
+            "Fry an egg sunny-side up.",
+            "Serve rice with vegetables, egg, and gochujang, and drizzle with sesame oil."
+        ]
+    },
+    "12": {
+        "name": "Toast",
+        "ingredients": [
+            "Bread",
+            "Butter"
+        ],
+        "instructions": [
+            "Spread butter on bread.",
+            "Toast in a toaster or on a pan until golden."
+        ]
+    },
+    "13": {
+        "name": "Croissant",
+        "ingredients": [
+            "Croissant dough",
+            "Butter",
+            "Egg wash"
+        ],
+        "instructions": [
+            "Roll out croissant dough and fold with butter.",
+            "Shape the dough and brush with egg wash.",
+            "Bake in the oven until golden brown."
+        ]
+    },
+    "14": {
+        "name": "Roll Bread",
+        "ingredients": [
+            "Flour",
+            "Yeast",
+            "Milk",
+            "Butter",
+            "Sugar"
+        ],
+        "instructions": [
+            "Mix flour, yeast, milk, butter, and sugar to make dough.",
+            "Let the dough rise until doubled in size.",
+            "Shape into rolls and bake until golden."
+        ]
+    },
+    "15": {
+        "name": "Raisin Bread",
+        "ingredients": [
+            "Flour",
+            "Yeast",
+            "Milk",
+            "Butter",
+            "Raisins"
+        ],
+        "instructions": [
+            "Mix dough ingredients, then fold in raisins.",
+            "Let dough rise until doubled.",
+            "Shape into loaves and bake."
+        ]
+    },
+    "16": {
+        "name": "Chip Butty",
+        "ingredients": [
+            "Bread",
+            "French fries",
+            "Butter",
+            "Ketchup"
+        ],
+        "instructions": [
+            "Toast bread and spread with butter.",
+            "Add a layer of cooked french fries.",
+            "Drizzle with ketchup and assemble the sandwich."
+        ]
+    },
+    "17": {
+        "name": "Hamburger",
+        "ingredients": [
+            "Ground beef",
+            "Buns",
+            "Cheese",
+            "Lettuce",
+            "Tomato",
+            "Pickles"
+        ],
+        "instructions": [
+            "Shape ground beef into patties and cook to your preference.",
+            "Toast buns and assemble burger with cheese, lettuce, tomato, and pickles."
+        ]
+    },
+    "18": {
+        "name": "Pizza",
+        "ingredients": [
+            "Pizza dough",
+            "Tomato sauce",
+            "Cheese",
+            "Pepperoni"
+        ],
+        "instructions": [
+            "Spread sauce on dough.",
+            "Add cheese and toppings.",
+            "Bake in oven until crust is golden."
+        ]
+    },
+    "19": {
+        "name": "Sandwiches",
+        "ingredients": [
+            "Bread",
+            "Deli meats",
+            "Cheese",
+            "Lettuce",
+            "Mayonnaise"
+        ],
+        "instructions": [
+            "Layer deli meats, cheese, and lettuce between slices of bread.",
+            "Spread mayonnaise inside the bread if desired."
+        ]
+    },
+    "20": {
+        "name": "Udon Noodle",
+        "ingredients": [
+            "Udon noodles",
+            "Dashi broth",
+            "Soy sauce",
+            "Green onions"
+        ],
+        "instructions": [
+            "Boil udon noodles and drain.",
+            "Heat dashi broth and soy sauce, then add noodles.",
+            "Top with green onions before serving."
+        ]
+    },
+    "21": {
+        "name": "Tempura Udon",
+        "ingredients": [
+            "Udon noodles",
+            "Tempura batter",
+            "Shrimp",
+            "Dashi broth"
+        ],
+        "instructions": [
+            "Boil udon noodles and drain.",
+            "Fry shrimp in tempura batter until golden.",
+            "Serve noodles in hot dashi broth with tempura shrimp on top."
+        ]
+    },
+    "22": {
+        "name": "Soba Noodle",
+        "ingredients": [
+            "Soba noodles",
+            "Dashi broth",
+            "Soy sauce",
+            "Scallions"
+        ],
+        "instructions": [
+            "Boil soba noodles and drain.",
+            "Heat dashi broth and soy sauce.",
+            "Serve noodles with broth and garnish with scallions."
+        ]
+    },
+    "23": {
+        "name": "Ramen Noodle",
+        "ingredients": [
+            "Ramen noodles",
+            "Pork broth",
+            "Boiled egg",
+            "Green onions",
+            "Chashu pork"
+        ],
+        "instructions": [
+            "Boil ramen noodles and drain.",
+            "Prepare pork broth and add noodles.",
+            "Top with boiled egg, green onions, and chashu pork."
+        ]
+    },
+    "24": {
+        "name": "Beef Noodle",
+        "ingredients": [
+            "Beef",
+            "Noodles",
+            "Soy sauce",
+            "Star anise",
+            "Green onions"
+        ],
+        "instructions": [
+            "Simmer beef with soy sauce and star anise until tender.",
+            "Boil noodles and drain.",
+            "Serve noodles with beef broth and garnish with green onions."
+        ]
+    },
+    "25": {
+        "name": "Tensin Noodle",
+        "ingredients": [
+            "Shrimp",
+            "Noodles",
+            "Soy sauce",
+            "Tempura batter"
+        ],
+        "instructions": [
+            "Cook shrimp in tempura batter until crispy.",
+            "Boil noodles and drain.",
+            "Serve noodles with soy sauce broth and tempura shrimp."
+        ]
+    },
+    "26": {
+        "name": "Fried Noodle",
+        "ingredients": [
+            "Noodles",
+            "Vegetables",
+            "Soy sauce",
+            "Garlic"
+        ],
+        "instructions": [
+            "Stir-fry garlic and vegetables.",
+            "Add boiled noodles and soy sauce.",
+            "Toss until noodles are evenly fried and coated."
+        ]
+    },
+    "27": {
+        "name": "Spaghetti",
+        "ingredients": [
+            "Spaghetti",
+            "Tomato sauce",
+            "Garlic",
+            "Olive oil"
+        ],
+        "instructions": [
+            "Boil spaghetti until al dente and drain.",
+            "Sauté garlic in olive oil and add tomato sauce.",
+            "Toss spaghetti in sauce and serve."
+        ]
+    },
+    "28": {
+        "name": "Japanese-Style Pancake",
+        "ingredients": [
+            "Flour",
+            "Eggs",
+            "Cabbage",
+            "Pork belly",
+            "Okonomiyaki sauce"
+        ],
+        "instructions": [
+            "Mix flour, eggs, and cabbage to form a batter.",
+            "Cook on a hot plate with pork belly until golden.",
+            "Drizzle with okonomiyaki sauce."
+        ]
+    },
+    "29": {
+        "name": "Takoyaki",
+        "ingredients": [
+            "Takoyaki batter",
+            "Octopus",
+            "Green onions",
+            "Takoyaki sauce",
+            "Bonito flakes"
+        ],
+        "instructions": [
+            "Heat takoyaki pan and pour in batter.",
+            "Add octopus pieces and green onions to each round.",
+            "Turn until golden brown, serve with takoyaki sauce and bonito flakes."
+        ]
+    },
+    "30": {
+        "name": "Gratin",
+        "ingredients": [
+            "Potatoes",
+            "Cream",
+            "Cheese",
+            "Garlic"
+        ],
+        "instructions": [
+            "Slice potatoes and layer in a dish.",
+            "Pour cream and garlic over the potatoes, sprinkle with cheese.",
+            "Bake until golden and bubbling."
+        ]
+    },
+    "31": {
+        "name": "Sauteed Vegetables",
+        "ingredients": [
+            "Assorted vegetables",
+            "Olive oil",
+            "Garlic",
+            "Salt",
+            "Pepper"
+        ],
+        "instructions": [
+            "Heat olive oil in a pan.",
+            "Add garlic and sauté vegetables until tender.",
+            "Season with salt and pepper to taste."
+        ]
+    },
+    "32": {
+        "name": "Croquette",
+        "ingredients": [
+            "Mashed potatoes",
+            "Ground meat",
+            "Bread crumbs",
+            "Eggs",
+            "Flour"
+        ],
+        "instructions": [
+            "Mix mashed potatoes and ground meat together.",
+            "Shape into patties, coat in flour, egg, and bread crumbs.",
+            "Fry until golden and crispy."
+        ]
+    },
+    "33": {
+        "name": "Grilled Eggplant",
+        "ingredients": [
+            "Eggplant",
+            "Olive oil",
+            "Garlic",
+            "Salt"
+        ],
+        "instructions": [
+            "Slice eggplant and brush with olive oil.",
+            "Grill until tender and slightly charred.",
+            "Sprinkle with garlic and salt before serving."
+        ]
+    },
+    "34": {
+        "name": "Sauteed Spinach",
+        "ingredients": [
+            "Spinach",
+            "Garlic",
+            "Olive oil",
+            "Salt"
+        ],
+        "instructions": [
+            "Heat olive oil in a pan.",
+            "Add garlic and sauté until fragrant.",
+            "Add spinach and cook until wilted, season with salt."
+        ]
+    },
+    "35": {
+        "name": "Vegetable Tempura",
+        "ingredients": [
+            "Assorted vegetables",
+            "Tempura batter",
+            "Oil for frying",
+            "Soy sauce"
+        ],
+        "instructions": [
+            "Dip vegetables in tempura batter.",
+            "Fry until golden and crispy.",
+            "Serve with soy sauce for dipping."
+        ]
+    },
+    "36": {
+        "name": "Miso Soup",
+        "ingredients": [
+            "Miso paste",
+            "Dashi broth",
+            "Tofu",
+            "Green onions",
+            "Seaweed"
+        ],
+        "instructions": [
+            "Heat dashi broth and stir in miso paste.",
+            "Add tofu, green onions, and seaweed, and simmer until warm."
+        ]
+    },
+    "37": {
+        "name": "Potage",
+        "ingredients": [
+            "Potatoes",
+            "Carrots",
+            "Cream",
+            "Onions",
+            "Chicken broth"
+        ],
+        "instructions": [
+            "Cook potatoes, carrots, and onions in chicken broth.",
+            "Blend until smooth, then stir in cream and simmer."
+        ]
+    },
+    "38": {
+        "name": "Sausage",
+        "ingredients": [
+            "Sausages",
+            "Oil",
+            "Mustard"
+        ],
+        "instructions": [
+            "Heat oil in a pan.",
+            "Cook sausages until browned and fully cooked.",
+            "Serve with mustard."
+        ]
+    },
+    "39": {
+        "name": "Oden",
+        "ingredients": [
+            "Assorted fish cakes",
+            "Daikon radish",
+            "Boiled eggs",
+            "Konnyaku",
+            "Dashi broth"
+        ],
+        "instructions": [
+            "Simmer fish cakes, daikon, eggs, and konnyaku in dashi broth.",
+            "Serve hot with a side of mustard."
+        ]
+    },
+    "40": {
+        "name": "Omelet",
+        "ingredients": [
+            "Eggs",
+            "Milk",
+            "Butter",
+            "Salt",
+            "Pepper"
+        ],
+        "instructions": [
+            "Beat eggs with milk, salt, and pepper.",
+            "Melt butter in a pan and cook eggs, folding gently into an omelet shape."
+        ]
+    },
+    "41": {
+        "name": "Ganmodoki",
+        "ingredients": [
+            "Tofu",
+            "Carrots",
+            "Lotus root",
+            "Eggs",
+            "Flour"
+        ],
+        "instructions": [
+            "Mash tofu and mix with grated carrots and lotus root.",
+            "Shape into balls, coat in flour and egg, then fry until golden."
+        ]
+    },
+    "42": {
+        "name": "Jiaozi",
+        "ingredients": [
+            "Ground pork",
+            "Cabbage",
+            "Garlic",
+            "Dumpling wrappers",
+            "Soy sauce"
+        ],
+        "instructions": [
+            "Mix ground pork, cabbage, and garlic.",
+            "Spoon mixture into dumpling wrappers and seal.",
+            "Pan-fry dumplings until crispy, then steam with a bit of water."
+        ]
+    },
+    "43": {
+        "name": "Stew",
+        "ingredients": [
+            "Beef",
+            "Potatoes",
+            "Carrots",
+            "Onions",
+            "Beef broth"
+        ],
+        "instructions": [
+            "Brown beef in a pot, add vegetables and broth.",
+            "Simmer until beef is tender and vegetables are soft."
+        ]
+    },
+    "44": {
+        "name": "Teriyaki Grilled Fish",
+        "ingredients": [
+            "Fish fillets",
+            "Soy sauce",
+            "Mirin",
+            "Sugar",
+            "Ginger"
+        ],
+        "instructions": [
+            "Marinate fish in soy sauce, mirin, sugar, and ginger.",
+            "Grill until fish is fully cooked and caramelized."
+        ]
+    },
+    "45": {
+        "name": "Fried Fish",
+        "ingredients": [
+            "Fish fillets",
+            "Flour",
+            "Eggs",
+            "Bread crumbs",
+            "Oil for frying"
+        ],
+        "instructions": [
+            "Coat fish fillets in flour, egg, and bread crumbs.",
+            "Fry in hot oil until golden and crispy."
+        ]
+    },
+    "46": {
+        "name": "Grilled Salmon",
+        "ingredients": [
+            "Salmon fillets",
+            "Olive oil",
+            "Lemon",
+            "Garlic",
+            "Herbs"
+        ],
+        "instructions": [
+            "Brush salmon with olive oil and season with garlic, herbs, and lemon.",
+            "Grill until cooked through and slightly charred."
+        ]
+    },
+    "47": {
+        "name": "Salmon Meuniere",
+        "ingredients": [
+            "Salmon fillets",
+            "Flour",
+            "Butter",
+            "Lemon",
+            "Parsley"
+        ],
+        "instructions": [
+            "Coat salmon in flour and pan-fry in butter until golden.",
+            "Serve with lemon juice and parsley."
+        ]
+    },
+    "48": {
+        "name": "Sashimi",
+        "ingredients": [
+            "Fresh raw fish",
+            "Soy sauce",
+            "Wasabi",
+            "Pickled ginger"
+        ],
+        "instructions": [
+            "Slice fresh raw fish thinly.",
+            "Serve with soy sauce, wasabi, and pickled ginger."
+        ]
+    },
+    "49": {
+        "name": "Grilled Pacific Saury",
+        "ingredients": [
+            "Pacific saury",
+            "Salt",
+            "Lemon",
+            "Soy sauce"
+        ],
+        "instructions": [
+            "Season Pacific saury with salt and grill until charred.",
+            "Serve with lemon and soy sauce."
+        ]
+    },
+    "50": {
+        "name": "Sukiyaki",
+        "ingredients": [
+            "Thinly sliced beef",
+            "Soy sauce",
+            "Sugar",
+            "Mirin",
+            "Vegetables"
+        ],
+        "instructions": [
+            "Cook beef and vegetables in a soy sauce, sugar, and mirin broth.",
+            "Serve hot with rice."
+        ]
+    },
+    "51": {
+        "name": "Sweet and Sour Pork",
+        "ingredients": [
+            "Pork",
+            "Pineapple",
+            "Bell peppers",
+            "Vinegar",
+            "Sugar"
+        ],
+        "instructions": [
+            "Stir-fry pork, pineapple, and bell peppers.",
+            "Add a sauce made of vinegar and sugar, cook until thickened."
+        ]
+    },
+    "52": {
+        "name": "Lightly Roasted Fish",
+        "ingredients": [
+            "Fish fillets",
+            "Olive oil",
+            "Lemon",
+            "Herbs"
+        ],
+        "instructions": [
+            "Lightly roast fish in the oven with olive oil, lemon, and herbs.",
+            "Serve warm with a drizzle of olive oil."
+        ]
+    },
+    "53": {
+        "name": "Steamed Egg Hotchpotch",
+        "ingredients": [
+            "Eggs",
+            "Dashi broth",
+            "Chicken",
+            "Shrimp",
+            "Vegetables"
+        ],
+        "instructions": [
+            "Mix eggs with dashi broth and add chicken, shrimp, and vegetables.",
+            "Steam until the eggs are set and the dish is firm."
+        ]
+    },
+    "54": {
+        "name": "Tempura",
+        "ingredients": [
+            "Shrimp",
+            "Vegetables",
+            "Tempura batter",
+            "Oil for frying"
+        ],
+        "instructions": [
+            "Dip shrimp and vegetables in tempura batter.",
+            "Fry until golden and crispy."
+        ]
+    },
+    "55": {
+        "name": "Fried Chicken",
+        "ingredients": [
+            "Chicken pieces",
+            "Flour",
+            "Eggs",
+            "Bread crumbs",
+            "Oil for frying"
+        ],
+        "instructions": [
+            "Coat chicken pieces in flour, egg, and bread crumbs.",
+            "Fry in hot oil until golden and crispy."
+        ]
+    },
+    "56": {
+        "name": "Sirloin Cutlet",
+        "ingredients": [
+            "Sirloin steak",
+            "Flour",
+            "Eggs",
+            "Bread crumbs",
+            "Oil for frying"
+        ],
+        "instructions": [
+            "Coat sirloin steak in flour, egg, and bread crumbs.",
+            "Fry until golden and the meat is cooked through."
+        ]
+    },
+    "57": {
+        "name": "Nanbanzuke",
+        "ingredients": [
+            "Fish fillets",
+            "Vinegar",
+            "Soy sauce",
+            "Carrots",
+            "Onions"
+        ],
+        "instructions": [
+            "Fry fish fillets and marinate in vinegar and soy sauce with sliced carrots and onions.",
+            "Serve chilled."
+        ]
+    },
+    "58": {
+        "name": "Boiled Fish",
+        "ingredients": [
+            "Fish",
+            "Soy sauce",
+            "Mirin",
+            "Sake",
+            "Ginger"
+        ],
+        "instructions": [
+            "Boil fish in a mixture of soy sauce, mirin, sake, and ginger until fully cooked."
+        ]
+    },
+    "59": {
+        "name": "Seasoned Beef with Potatoes",
+        "ingredients": [
+            "Beef slices",
+            "Potatoes",
+            "Soy sauce",
+            "Sugar",
+            "Mirin"
+        ],
+        "instructions": [
+            "Simmer beef slices and potatoes in soy sauce, sugar, and mirin until tender."
+        ]
+    },
+    "60": {
+        "name": "Hambarg Steak",
+        "ingredients": [
+            "Ground beef",
+            "Onions",
+            "Breadcrumbs",
+            "Eggs",
+            "Worcestershire sauce"
+        ],
+        "instructions": [
+            "Mix ground beef, onions, breadcrumbs, and eggs.",
+            "Shape into patties and pan-fry until browned on both sides.",
+            "Serve with Worcestershire sauce."
+        ]
+    },
+    "61": {
+        "name": "Beef Steak",
+        "ingredients": [
+            "Beef steak",
+            "Salt",
+            "Pepper",
+            "Butter",
+            "Garlic"
+        ],
+        "instructions": [
+            "Season steak with salt and pepper.",
+            "Pan-fry in butter and garlic until cooked to desired doneness."
+        ]
+    },
+    "62": {
+        "name": "Dried Fish",
+        "ingredients": [
+            "Fish",
+            "Salt",
+            "Soy sauce"
+        ],
+        "instructions": [
+            "Salt the fish and dry it in the sun.",
+            "Grill the dried fish and serve with soy sauce."
+        ]
+    },
+    "63": {
+        "name": "Ginger Pork Saute",
+        "ingredients": [
+            "Pork slices",
+            "Ginger",
+            "Soy sauce",
+            "Mirin"
+        ],
+        "instructions": [
+            "Sauté pork slices with ginger in soy sauce and mirin until cooked through."
+        ]
+    },
+    "64": {
+        "name": "Spicy Chili-Flavored Tofu",
+        "ingredients": [
+            "Tofu",
+            "Chili sauce",
+            "Garlic",
+            "Soy sauce"
+        ],
+        "instructions": [
+            "Stir-fry tofu in chili sauce, garlic, and soy sauce until spicy and fragrant."
+        ]
+    },
+    "65": {
+        "name": "Yakitori",
+        "ingredients": [
+            "Chicken",
+            "Soy sauce",
+            "Sake",
+            "Mirin",
+            "Sugar"
+        ],
+        "instructions": [
+            "Skewer chicken and grill, basting with a mixture of soy sauce, sake, mirin, and sugar."
+        ]
+    },
+    "66": {
+        "name": "Cabbage Roll",
+        "ingredients": [
+            "Cabbage leaves",
+            "Ground beef",
+            "Onions",
+            "Carrots",
+            "Tomato sauce"
+        ],
+        "instructions": [
+            "Blanch cabbage leaves and stuff them with ground beef, onions, and carrots.",
+            "Roll up and cook in tomato sauce until tender."
+        ]
+    },
+    "67": {
+        "name": "Rolled Omelet",
+        "ingredients": [
+            "Eggs",
+            "Dashi broth",
+            "Soy sauce",
+            "Sugar"
+        ],
+        "instructions": [
+            "Beat eggs with dashi broth, soy sauce, and sugar.",
+            "Cook in a pan, rolling the omelet as it sets."
+        ]
+    },
+    "68": {
+        "name": "Egg Sunny-Side Up",
+        "ingredients": [
+            "Eggs",
+            "Butter",
+            "Salt",
+            "Pepper"
+        ],
+        "instructions": [
+            "Heat butter in a pan and fry eggs sunny-side up.",
+            "Season with salt and pepper."
+        ]
+    },
+    "69": {
+        "name": "Fermented Soybeans",
+        "ingredients": [
+            "Fermented soybeans",
+            "Soy sauce",
+            "Mustard"
+        ],
+        "instructions": [
+            "Serve fermented soybeans with soy sauce and mustard for dipping."
+        ]
+    },
+    "70": {
+        "name": "Cold Tofu",
+        "ingredients": [
+            "Tofu",
+            "Soy sauce",
+            "Ginger",
+            "Green onions"
+        ],
+        "instructions": [
+            "Serve chilled tofu with soy sauce, grated ginger, and chopped green onions."
+        ]
+    },
+    "71": {
+        "name": "Egg Roll",
+        "ingredients": [
+            "Eggs",
+            "Carrots",
+            "Green onions",
+            "Soy sauce"
+        ],
+        "instructions": [
+            "Beat eggs and stir in carrots and green onions.",
+            "Cook in a pan, rolling the mixture as it sets."
+        ]
+    },
+    "72": {
+        "name": "Chilled Noodle",
+        "ingredients": [
+            "Noodles",
+            "Soy sauce",
+            "Sesame oil",
+            "Cucumber",
+            "Tomato"
+        ],
+        "instructions": [
+            "Cook noodles and chill them.",
+            "Serve with soy sauce, sesame oil, and garnished with cucumber and tomato."
+        ]
+    },
+    "73": {
+        "name": "Stir-Fried Beef and Peppers",
+        "ingredients": [
+            "Beef slices",
+            "Bell peppers",
+            "Soy sauce",
+            "Garlic",
+            "Ginger"
+        ],
+        "instructions": [
+            "Stir-fry beef slices with bell peppers, garlic, and ginger in soy sauce until cooked through."
+        ]
+    },
+    "74": {
+        "name": "Simmered Pork",
+        "ingredients": [
+            "Pork belly",
+            "Soy sauce",
+            "Sugar",
+            "Sake",
+            "Ginger"
+        ],
+        "instructions": [
+            "Simmer pork belly in a mixture of soy sauce, sugar, sake, and ginger until tender."
+        ]
+    },
+    "75": {
+        "name": "Boiled Chicken and Vegetables",
+        "ingredients": [
+            "Chicken breast",
+            "Carrots",
+            "Potatoes",
+            "Soy sauce",
+            "Garlic"
+        ],
+        "instructions": [
+            "Boil chicken and vegetables in a broth flavored with soy sauce and garlic until cooked through."
+        ]
+    },
+    "76": {
+        "name": "Sashimi Bowl",
+        "ingredients": [
+            "Sashimi-grade fish",
+            "Rice",
+            "Soy sauce",
+            "Wasabi",
+            "Pickled ginger"
+        ],
+        "instructions": [
+            "Place sliced sashimi on top of a bowl of rice.",
+            "Serve with soy sauce, wasabi, and pickled ginger."
+        ]
+    },
+    "77": {
+        "name": "Sushi Bowl",
+        "ingredients": [
+            "Sushi rice",
+            "Assorted sashimi",
+            "Soy sauce",
+            "Nori",
+            "Wasabi"
+        ],
+        "instructions": [
+            "Fill a bowl with sushi rice and top with assorted sashimi.",
+            "Serve with soy sauce, nori, and wasabi."
+        ]
+    },
+    "78": {
+        "name": "Fish-Shaped Pancake with Bean Jam",
+        "ingredients": [
+            "Pancake batter",
+            "Sweet red bean paste",
+            "Oil"
+        ],
+        "instructions": [
+            "Pour pancake batter into a fish-shaped mold.",
+            "Add sweet red bean paste and cook until golden on both sides."
+        ]
+    },
+    "79": {
+        "name": "Shrimp with Chili Sauce",
+        "ingredients": [
+            "Shrimp",
+            "Chili sauce",
+            "Garlic",
+            "Ginger",
+            "Soy sauce"
+        ],
+        "instructions": [
+            "Stir-fry shrimp with garlic, ginger, and chili sauce.",
+            "Add soy sauce and cook until shrimp are fully coated."
+        ]
+    },
+    "80": {
+        "name": "Roast Chicken",
+        "ingredients": [
+            "Whole chicken",
+            "Olive oil",
+            "Garlic",
+            "Rosemary",
+            "Lemon"
+        ],
+        "instructions": [
+            "Rub the chicken with olive oil, garlic, and rosemary.",
+            "Roast in the oven until fully cooked.",
+            "Squeeze lemon juice over before serving."
+        ]
+    },
+    "81": {
+        "name": "Steamed Meat Dumpling",
+        "ingredients": [
+            "Ground pork",
+            "Green onions",
+            "Ginger",
+            "Soy sauce",
+            "Dumpling wrappers"
+        ],
+        "instructions": [
+            "Mix ground pork, green onions, ginger, and soy sauce.",
+            "Fill dumpling wrappers and steam until cooked through."
+        ]
+    },
+    "82": {
+        "name": "Omelet with Fried Rice",
+        "ingredients": [
+            "Eggs",
+            "Fried rice",
+            "Ketchup"
+        ],
+        "instructions": [
+            "Make a thin omelet with beaten eggs.",
+            "Fill with fried rice and fold into an omelet shape.",
+            "Serve with ketchup on top."
+        ]
+    },
+    "83": {
+        "name": "Cutlet Curry",
+        "ingredients": [
+            "Pork cutlet",
+            "Curry sauce",
+            "Rice",
+            "Breadcrumbs",
+            "Oil for frying"
+        ],
+        "instructions": [
+            "Fry the breaded pork cutlet until crispy.",
+            "Serve over rice with curry sauce."
+        ]
+    },
+    "84": {
+        "name": "Spaghetti Meat Sauce",
+        "ingredients": [
+            "Spaghetti",
+            "Ground beef",
+            "Tomato sauce",
+            "Onions",
+            "Garlic"
+        ],
+        "instructions": [
+            "Cook spaghetti according to package instructions.",
+            "Brown ground beef with onions and garlic, then add tomato sauce.",
+            "Serve meat sauce over cooked spaghetti."
+        ]
+    },
+    "85": {
+        "name": "Fried Shrimp",
+        "ingredients": [
+            "Shrimp",
+            "Flour",
+            "Egg",
+            "Breadcrumbs",
+            "Oil for frying"
+        ],
+        "instructions": [
+            "Coat shrimp in flour, egg, and breadcrumbs.",
+            "Fry in hot oil until golden and crispy."
+        ]
+    },
+    "86": {
+        "name": "Potato Salad",
+        "ingredients": [
+            "Potatoes",
+            "Mayonnaise",
+            "Carrots",
+            "Cucumbers",
+            "Onions"
+        ],
+        "instructions": [
+            "Boil potatoes until tender.",
+            "Mix with mayonnaise, carrots, cucumbers, and onions."
+        ]
+    },
+    "87": {
+        "name": "Green Salad",
+        "ingredients": [
+            "Lettuce",
+            "Tomatoes",
+            "Cucumbers",
+            "Olive oil",
+            "Vinegar"
+        ],
+        "instructions": [
+            "Chop lettuce, tomatoes, and cucumbers.",
+            "Toss with olive oil and vinegar."
+        ]
+    },
+    "88": {
+        "name": "Macaroni Salad",
+        "ingredients": [
+            "Macaroni",
+            "Mayonnaise",
+            "Carrots",
+            "Onions",
+            "Peas"
+        ],
+        "instructions": [
+            "Cook macaroni according to package instructions.",
+            "Mix with mayonnaise, carrots, onions, and peas."
+        ]
+    },
+    "89": {
+        "name": "Japanese Tofu and Vegetable Chowder",
+        "ingredients": [
+            "Tofu",
+            "Carrots",
+            "Cabbage",
+            "Miso paste",
+            "Dashi broth"
+        ],
+        "instructions": [
+            "Simmer tofu and vegetables in dashi broth.",
+            "Stir in miso paste before serving."
+        ]
+    },
+    "90": {
+        "name": "Pork Miso Soup",
+        "ingredients": [
+            "Pork",
+            "Miso paste",
+            "Tofu",
+            "Dashi broth",
+            "Green onions"
+        ],
+        "instructions": [
+            "Simmer pork, tofu, and miso paste in dashi broth.",
+            "Garnish with chopped green onions before serving."
+        ]
+    },
+    "91": {
+        "name": "Chinese Soup",
+        "ingredients": [
+            "Chicken broth",
+            "Ginger",
+            "Green onions",
+            "Tofu",
+            "Soy sauce"
+        ],
+        "instructions": [
+            "Simmer chicken broth with ginger and green onions.",
+            "Add tofu and season with soy sauce."
+        ]
+    },
+    "92": {
+        "name": "Beef Bowl",
+        "ingredients": [
+            "Beef slices",
+            "Onions",
+            "Soy sauce",
+            "Sugar",
+            "Rice"
+        ],
+        "instructions": [
+            "Cook beef slices and onions in a mixture of soy sauce and sugar.",
+            "Serve over rice."
+        ]
+    },
+    "93": {
+        "name": "Kinpira-Style Sauteed Burdock",
+        "ingredients": [
+            "Burdock root",
+            "Carrots",
+            "Soy sauce",
+            "Sugar",
+            "Sesame seeds"
+        ],
+        "instructions": [
+            "Saute burdock root and carrots in soy sauce and sugar.",
+            "Sprinkle with sesame seeds before serving."
+        ]
+    },
+    "94": {
+        "name": "Rice Ball",
+        "ingredients": [
+            "Cooked rice",
+            "Salt",
+            "Nori"
+        ],
+        "instructions": [
+            "Shape rice into a ball.",
+            "Sprinkle with salt and wrap in nori."
+        ]
+    },
+    "95": {
+        "name": "Pizza Toast",
+        "ingredients": [
+            "Bread slices",
+            "Tomato sauce",
+            "Cheese",
+            "Pepperoni"
+        ],
+        "instructions": [
+            "Spread tomato sauce on bread slices.",
+            "Top with cheese and pepperoni.",
+            "Toast until cheese is melted."
+        ]
+    },
+    "96": {
+        "name": "Dipping Noodles",
+        "ingredients": [
+            "Noodles",
+            "Soy sauce",
+            "Dashi broth",
+            "Green onions",
+            "Sesame seeds"
+        ],
+        "instructions": [
+            "Cook noodles according to package instructions.",
+            "Serve with a dipping sauce made from soy sauce and dashi broth.",
+            "Garnish with green onions and sesame seeds."
+        ]
+    },
+    "97": {
+        "name": "Hot Dog",
+        "ingredients": [
+            "Hot dog bun",
+            "Sausage",
+            "Ketchup",
+            "Mustard"
+        ],
+        "instructions": [
+            "Grill or boil the sausage.",
+            "Place it in the bun and top with ketchup and mustard."
+        ]
+    },
+    "98": {
+        "name": "French Fries",
+        "ingredients": [
+            "Potatoes",
+            "Salt",
+            "Oil for frying"
+        ],
+        "instructions": [
+            "Cut potatoes into strips and fry in hot oil until crispy.",
+            "Season with salt."
+        ]
+    },
+    "99": {
+        "name": "Mixed Rice",
+        "ingredients": [
+            "Cooked rice",
+            "Vegetables",
+            "Soy sauce",
+            "Sesame oil"
+        ],
+        "instructions": [
+            "Mix cooked rice with vegetables, soy sauce, and sesame oil."
+        ]
+    },
+    "100": {
+        "name": "Goya Chanpuru",
+        "ingredients": [
+            "Goya (bitter melon)",
+            "Tofu",
+            "Pork belly",
+            "Soy sauce",
+            "Eggs"
+        ],
+        "instructions": [
+            "Stir-fry goya, tofu, and pork belly in soy sauce.",
+            "Add beaten eggs and cook until set."
+        ]
+    }
+}
