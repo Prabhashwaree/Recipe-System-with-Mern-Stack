@@ -1,7 +1,7 @@
 import os
 import torch 
 from flask import Flask, request, jsonify
-from torchvision import transforms,models
+from torchvision import transforms, models
 from PIL import Image
 import io
 import json
@@ -11,7 +11,7 @@ from torch import nn
 app = Flask(__name__)
 
 # Path to your trained model and recipe JSON file
-MODEL_PATH = r'D:\Others\TOPUP\Test Projects\Recipe-System-with-Mern-Stack\AI\food_resnet50.pth'  # Update with your trained model path
+MODEL_PATH = r'D:\Others\TOPUP\Test Projects\Recipe-System-with-Mern-Stack\AI\food_resnet50_colab.pth'  # Update with your trained model path
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 RECIPE_FILE_PATH = os.path.join(BASE_DIR, 'food.json')
 
@@ -19,16 +19,17 @@ RECIPE_FILE_PATH = os.path.join(BASE_DIR, 'food.json')
 with open(RECIPE_FILE_PATH, 'r') as f:
     FOOD_TO_RECIPE = json.load(f)
 
-
+# Load the trained model
 model = models.resnet50()
 num_classes = 100  # Ensure this matches your number of classes
 model.fc = nn.Linear(model.fc.in_features, num_classes) 
-# Load your trained model
-model.load_state_dict(torch.load(MODEL_PATH))
+
+# Load the model weights (use map_location for CPU)
+model.load_state_dict(torch.load(MODEL_PATH, map_location=torch.device('cpu')))
 model.eval()
 print("Model loaded successfully and is ready for inference.")
 
-# Define the image preprocessing transformations (ensure they match what you used during training)
+# Define the image preprocessing transformations
 preprocess = transforms.Compose([
     transforms.Resize(256),
     transforms.CenterCrop(224),
@@ -51,7 +52,7 @@ def predict_food(image_bytes):
         probabilities = torch.nn.functional.softmax(outputs, dim=1)
         confidence, predicted = probabilities.max(1)
     
-    print(predicted.item(), confidence.item())
+    print(f"Predicted class: {predicted.item()}, Confidence: {confidence.item()}")
 
     # Return the predicted class index and confidence score
     return predicted.item(), confidence.item()
@@ -67,15 +68,15 @@ def predict_recipe():
     try:
         # Predict the food category and confidence
         predicted_class, confidence = predict_food(image)
-        print(predicted_class)
+        print(f"Predicted class index: {predicted_class}, Confidence: {confidence}")
 
         if confidence < 0.7:  # Confidence threshold
             return jsonify({'error': 'The uploaded image is not a recognized food item'}), 400
 
         # Get the corresponding food category from the UEC-Food100 dataset
         food_categories = list(FOOD_TO_RECIPE.keys())
-        food_category = food_categories[predicted_class-1]
-        print(food_category)
+        food_category = food_categories[predicted_class-1]  # Make sure no -1 if zero-indexed
+        print(f"Predicted food category: {food_category}")
 
         # Retrieve the corresponding recipe
         recipe = FOOD_TO_RECIPE.get(food_category)

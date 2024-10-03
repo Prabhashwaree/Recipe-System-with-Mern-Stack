@@ -6,3 +6,4 @@
 /client/src/common/data.js
 /AI/venv
 /AI/dataset
+/AI/food_resnet50_colab.pth

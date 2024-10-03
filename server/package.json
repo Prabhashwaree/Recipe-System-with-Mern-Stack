@@ -16,6 +16,7 @@
     "express-rate-limit": "^6.9.0",
     "jsonwebtoken": "^9.0.1",
     "mongoose": "^7.4.1",
+    "recipen-backend": "file:",
     "stripe": "^12.17.0"
   }
 }
