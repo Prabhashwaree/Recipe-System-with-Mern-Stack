@@ -72,13 +72,7 @@ const DashboardIngredients = () => {
         );
         const averageRating =
           sumOfRatings === 0 ? 0 : sumOfRatings / ratings.length;
-        return (
-          <Rating
-            value={averageRating}
-            readOnly={true}
-            size={"medium"}
-          />
-        );
+        return <Rating value={averageRating} readOnly={true} size={"medium"} />;
       },
     },
     {
@@ -106,10 +100,7 @@ const DashboardIngredients = () => {
         {isLoading ? (
           <ComponentLoading />
         ) : (
-          <Table
-            rows={updatedData}
-            cols={cols}
-          />
+          <Table rows={updatedData} cols={cols} />
         )}
       </div>
     </section>

@@ -8,6 +8,7 @@ import {
   DashboardBlogs,
   DashboardRecipes,
   DashboardIngredients,
+  DashboardOrders,
   EditBlog,
   EditRecipe,
   Error,
@@ -67,6 +68,7 @@ function App() {
                 <Route path="recipes" element={<DashboardRecipes />} />
                 <Route path="blogs" element={<DashboardBlogs />} />
                 <Route path="ingredients" element={<DashboardIngredients />} />
+                <Route path="orders" element={<DashboardOrders />} />
               </Route>
             </Route>
 

@@ -7,39 +7,39 @@ import {
 } from "../../features/ingredient/ingredientApiSlice";
 import { useParams } from "react-router-dom";
 import uploadImage from "../../common/uploadImage";
+import { photo } from "../../assets";
 
 const EditIngredient = () => {
   const { id } = useParams();
-
-  const { data, ...rest } = useGetIngredientQuery(id);
+  const { data, isLoading: isDataLoading } = useGetIngredientQuery(id);
   const [updateIngredient, { isLoading }] = useUpdateIngredientMutation();
 
   const [formDetails, setFormDetails] = useState({
-    title: data?.title || "",
-    image: data?.image || "",
-    description: data?.description || "",
-    quantity: data?.quantity || "",
-    price: data?.price || "",
-  });
-
-  const [progress, setProgress] = useState(0);
-  const [focused, setFocused] = useState({
     title: "",
+    image: "",
+    description: "",
     quantity: "",
     price: "",
   });
 
+  const [progress, setProgress] = useState(0);
+  const [focused, setFocused] = useState({
+    title: false,
+    quantity: false,
+    price: false,
+  });
+
   useEffect(() => {
-    if (!rest?.isLoading) {
+    if (data && !isDataLoading) {
       setFormDetails({
-        title: data?.title,
-        image: data?.image,
-        description: data?.description,
-        quantity: data?.calories,
-        price: data?.cookingTime,
+        title: data.title || "",
+        image: data.image || "",
+        description: data.description || "",
+        quantity: data.quantity || "",  // Ensure these properties are correctly mapped
+        price: data.price || "",        // Ensure these properties are correctly mapped
       });
     }
-  }, [rest?.isLoading]);
+  }, [data, isDataLoading]);
 
   const handleFocus = (e) => {
     setFocused({ ...focused, [e.target.id]: true });
@@ -56,11 +56,10 @@ const EditIngredient = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    console.log(formDetails);
     if (!formDetails.image) return toast.error("Upload ingredient image");
 
     try {
-      const ingredient = await toast.promise(
+      await toast.promise(
         updateIngredient({ ...formDetails, ingredientId: id }).unwrap(),
         {
           pending: "Please wait...",
@@ -69,8 +68,7 @@ const EditIngredient = () => {
         }
       );
     } catch (error) {
-      toast.error(error.data);
-      console.error(error);
+      toast.error(error.data || "An error occurred");
     }
   };
 
@@ -78,7 +76,7 @@ const EditIngredient = () => {
     <section className="box flex flex-col gap-6">
       <h2 className="font-bold text-xl">Edit Ingredient</h2>
       <hr />
-      {rest.isLoading ? (
+      {isLoading ? (
         <ComponentLoading />
       ) : (
         <form

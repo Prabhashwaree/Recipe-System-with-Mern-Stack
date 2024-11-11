@@ -4,6 +4,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
 import { BiHomeAlt2 } from "react-icons/bi";
 import { BsFileEarmarkText } from "react-icons/bs";
+import { BsCart } from "react-icons/bs";
 import { HiOutlineUsers, HiOutlineLogout } from "react-icons/hi";
 import { IoRestaurantOutline } from "react-icons/io5";
 import { IoGridOutline } from "react-icons/io5";
@@ -96,6 +97,15 @@ const index = ({ isCollapsed, setIsCollapsed }) => {
           >
             <IoGridOutline />
             {!isCollapsed && "Ingredients"}
+          </NavLink>
+          <NavLink
+            to={"/dashboard/orders"}
+            className={`rounded-lg hover:bg-gradient-to-r hover:from-[#5DBF0F] hover:to-[#5DBF0F] p-2 flex gap-2 items-center text-gray-600 hover:text-light ${
+              isCollapsed && "justify-center"
+            }`}
+          >
+            <BsCart />
+            {!isCollapsed && "Orders"}
           </NavLink>
           <NavLink
             to={"/dashboard/blogs"}

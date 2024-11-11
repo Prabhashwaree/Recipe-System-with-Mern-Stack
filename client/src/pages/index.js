@@ -32,6 +32,7 @@ const Users = lazy(() => import("./dashboard/Users"));
 const DashboardRecipes = lazy(() => import("./dashboard/DashboardRecipes"));
 const DashboardBlogs = lazy(() => import("./dashboard/DashboardBlogs"));
 const DashboardIngredients = lazy(() => import("./dashboard/DashboardIngredients"));
+const DashboardOrders = lazy(() => import("./dashboard/DashboardOrders"));
 
 const SignIn = lazy(() => import("./auth/SignIn"));
 const SignUp = lazy(() => import("./auth/SignUp"));
@@ -60,6 +61,7 @@ export {
   Users,
   DashboardRecipes,
   DashboardIngredients,
+  DashboardOrders,
   DashboardBlogs,
   Error,
   CheckoutSuccess,
