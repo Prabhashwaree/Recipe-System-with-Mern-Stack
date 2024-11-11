@@ -6,9 +6,11 @@ from PIL import Image
 import io
 import json
 from torch import nn
-
+from flask_cors import CORS
 # Initialize the Flask app
+
 app = Flask(__name__)
+CORS(app, origins=["http://localhost:5173"], supports_credentials=True)
 
 # Path to your trained model and recipe JSON file
 MODEL_PATH = r'D:\Others\TOPUP\Test Projects\Recipe-System-with-Mern-Stack\AI\food_resnet50_colab.pth'  # Update with your trained model path

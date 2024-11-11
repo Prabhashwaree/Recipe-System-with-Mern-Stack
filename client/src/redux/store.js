@@ -4,6 +4,7 @@ import authReducer from "../features/auth/authSlice";
 import blogReducer from "../features/blog/blogSlice";
 import recipeReducer from "../features/recipe/recipeSlice";
 import ingredientReducer from '../features/ingredient/ingredientSlice';
+import orderReducer from '../features/order/orderSlice';
 
 export const store = configureStore({
   reducer: {
@@ -11,7 +12,8 @@ export const store = configureStore({
     auth: authReducer,
     blog: blogReducer,
     recipe: recipeReducer,
-    ingredient:ingredientReducer
+    ingredient:ingredientReducer,
+    order: orderReducer,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat(apiSlice.middleware),

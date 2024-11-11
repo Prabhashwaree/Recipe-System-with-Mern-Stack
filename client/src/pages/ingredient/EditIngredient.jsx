@@ -56,6 +56,7 @@ const EditIngredient = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    console.log(formDetails);
     if (!formDetails.image) return toast.error("Upload ingredient image");
 
     try {

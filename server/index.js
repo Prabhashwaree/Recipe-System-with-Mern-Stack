@@ -26,6 +26,7 @@ app.use("/api/auth", require("./routes/authRoutes"));
 app.use("/api/user", require("./routes/userRoutes"));
 app.use("/api/recipe", require("./routes/recipeRoutes"));
 app.use("/api/ingredient", require("./routes/ingredientsRoutes"));
+app.use("/api/order", require("./routes/orderRoutes"));
 app.use("/api/blog", require("./routes/blogRoutes"));
 app.use("/api/stripe", require("./routes/subscriptionRoutes"));
 

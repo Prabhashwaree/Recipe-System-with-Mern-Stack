@@ -26,6 +26,7 @@ import useAuth from "../../hooks/useAuth";
 import useTitle from "../../hooks/useTitle";
 import { MoreVert } from "@mui/icons-material";
 import { Rating, IconButton, Menu, MenuItem } from "@mui/material";
+import { useOrderIngredientMutation } from "../../features/order/orderApiSlice";
 
 const SingleIngredient = () => {
   useTitle("Recipen - Ingredient");
@@ -42,6 +43,8 @@ const SingleIngredient = () => {
   const [commentIngredient, { isLoading }] = useCommentIngredientMutation();
   const [deleteComment] = useDeleteCommentIngredientMutation();
   const [deleteIngredient] = useDeleteIngredientMutation();
+
+  const [orderIngredient] = useOrderIngredientMutation();
 
   const [formDetails, setFormDetails] = useState({
     name: user?.name || "",
@@ -138,10 +141,34 @@ const SingleIngredient = () => {
     setAnchorEl(null);
   };
 
-  const handleBuy = () => {
-    toast.success(
-      "Order placed successfully! Our sales team will contact you soon."
-    );
+  const handleBuy = async () => {
+    if (!user) {
+      toast.error("You must sign in first");
+      return navigate("/auth/signin");
+    }
+
+    try {
+      const orderData = {
+        ingredientId: id,
+        userId: user.userId,
+        quantity: 1, 
+      };
+
+      await toast.promise(
+        orderIngredient(orderData).unwrap(),
+        {
+          pending: "Placing order",
+          success: "Order placed successfully! Our sales team will contact you soon.",
+          error: "Failed to place order",
+        }
+      );
+    } catch (error) {
+      toast.error("Could not place order. Please try again later.");
+      console.error(error);
+    }
+    // toast.success(
+    //   "Order placed successfully! Our sales team will contact you soon."
+    // );
   };
 
   return (
