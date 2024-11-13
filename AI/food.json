@@ -1,14 +1,16 @@
 {
     "1": {
-        "name": "Rice",
+        "name": "Goya Chanpuru",
         "ingredients": [
-            "Rice",
-            "Water"
+            "Goya (bitter melon)",
+            "Tofu",
+            "Pork belly",
+            "Soy sauce",
+            "Eggs"
         ],
         "instructions": [
-            "Rinse the rice under cold water.",
-            "Place rice and water in a pot.",
-            "Bring to a boil, then cover and simmer for 15-20 minutes."
+            "Stir-fry goya, tofu, and pork belly in soy sauce.",
+            "Add beaten eggs and cook until set."
         ]
     },
     "2": {
@@ -42,18 +44,14 @@
         ]
     },
     "4": {
-        "name": "Chicken-'n'-Egg on Rice",
+        "name": "Toast",
         "ingredients": [
-            "Chicken breast",
-            "Eggs",
-            "Soy sauce",
-            "Sugar",
-            "Rice"
+            "Bread",
+            "Butter"
         ],
         "instructions": [
-            "Cook chicken in soy sauce and sugar mixture.",
-            "Whisk eggs and pour over the chicken.",
-            "Serve over cooked rice."
+            "Spread butter on bread.",
+            "Toast in a toaster or on a pan until golden."
         ]
     },
     "5": {
@@ -102,74 +100,78 @@
         ]
     },
     "8": {
-        "name": "Chicken Rice",
+        "name": "Fish-Shaped Pancake with Bean Jam",
         "ingredients": [
-            "Rice",
-            "Chicken",
-            "Garlic",
-            "Soy sauce",
-            "Ginger"
+            "Pancake batter",
+            "Sweet red bean paste",
+            "Oil"
         ],
         "instructions": [
-            "Sauté garlic and ginger in oil.",
-            "Add chicken and cook until browned.",
-            "Add rice and soy sauce, mix well."
+            "Pour pancake batter into a fish-shaped mold.",
+            "Add sweet red bean paste and cook until golden on both sides."
         ]
+       
     },
     "9": {
-        "name": "Fried Rice",
+        "name": "Burger",
         "ingredients": [
-            "Rice",
-            "Eggs",
-            "Vegetables",
-            "Soy sauce",
-            "Garlic"
+            "Ground beef",
+            "Buns",
+            "Cheese",
+            "Lettuce",
+            "Tomato",
+            "Pickles"
         ],
         "instructions": [
-            "Scramble eggs and set aside.",
-            "Sauté garlic and vegetables.",
-            "Add rice and soy sauce, mix in scrambled eggs."
+            "Shape ground beef into patties and cook to your preference.",
+            "Toast buns and assemble burger with cheese, lettuce, tomato, and pickles."
         ]
+        
     },
     "10": {
-        "name": "Tempura Bowl",
+        "name": "Pizza",
         "ingredients": [
-            "Tempura batter",
-            "Shrimp",
-            "Vegetables",
-            "Rice",
-            "Soy sauce"
+            "Pizza dough",
+            "Tomato sauce",
+            "Cheese",
+            "Pepperoni"
         ],
         "instructions": [
-            "Dip shrimp and vegetables in tempura batter and fry.",
-            "Serve over cooked rice with soy sauce."
+            "Spread sauce on dough.",
+            "Add cheese and toppings.",
+            "Bake in oven until crust is golden."
         ]
     },
     "11": {
-        "name": "Bibimbap",
-        "ingredients": [
-            "Rice",
-            "Assorted vegetables",
-            "Eggs",
-            "Gochujang",
-            "Sesame oil"
-        ],
-        "instructions": [
-            "Cook and season vegetables.",
-            "Fry an egg sunny-side up.",
-            "Serve rice with vegetables, egg, and gochujang, and drizzle with sesame oil."
-        ]
-    },
-    "12": {
-        "name": "Toast",
+        "name": "Sandwiches",
         "ingredients": [
             "Bread",
-            "Butter"
+            "Deli meats",
+            "Cheese",
+            "Lettuce",
+            "Mayonnaise"
         ],
         "instructions": [
-            "Spread butter on bread.",
-            "Toast in a toaster or on a pan until golden."
+            "Layer deli meats, cheese, and lettuce between slices of bread.",
+            "Spread mayonnaise inside the bread if desired."
         ]
+        
+    },
+    "12": {
+        "name": "Chicken-'n'-Egg on Rice",
+        "ingredients": [
+            "Chicken breast",
+            "Eggs",
+            "Soy sauce",
+            "Sugar",
+            "Rice"
+        ],
+        "instructions": [
+            "Cook chicken in soy sauce and sugar mixture.",
+            "Whisk eggs and pour over the chicken.",
+            "Serve over cooked rice."
+        ]
+        
     },
     "13": {
         "name": "Croissant",
@@ -215,60 +217,64 @@
         ]
     },
     "16": {
-        "name": "Chip Butty",
+        "name": "Noodle",
         "ingredients": [
-            "Bread",
-            "French fries",
-            "Butter",
-            "Ketchup"
+            "Ramen noodles",
+            "Pork broth",
+            "Boiled egg",
+            "Green onions",
+            "Chashu pork"
         ],
         "instructions": [
-            "Toast bread and spread with butter.",
-            "Add a layer of cooked french fries.",
-            "Drizzle with ketchup and assemble the sandwich."
+            "Boil ramen noodles and drain.",
+            "Prepare pork broth and add noodles.",
+            "Top with boiled egg, green onions, and chashu pork."
         ]
+        
     },
     "17": {
-        "name": "Hamburger",
+        "name": "Fried Rice",
         "ingredients": [
-            "Ground beef",
-            "Buns",
-            "Cheese",
-            "Lettuce",
-            "Tomato",
-            "Pickles"
+            "Rice",
+            "Eggs",
+            "Vegetables",
+            "Soy sauce",
+            "Garlic"
         ],
         "instructions": [
-            "Shape ground beef into patties and cook to your preference.",
-            "Toast buns and assemble burger with cheese, lettuce, tomato, and pickles."
+            "Scramble eggs and set aside.",
+            "Sauté garlic and vegetables.",
+            "Add rice and soy sauce, mix in scrambled eggs."
         ]
     },
     "18": {
-        "name": "Pizza",
+        "name": "Tempura Bowl",
         "ingredients": [
-            "Pizza dough",
-            "Tomato sauce",
-            "Cheese",
-            "Pepperoni"
+            "Tempura batter",
+            "Shrimp",
+            "Vegetables",
+            "Rice",
+            "Soy sauce"
         ],
         "instructions": [
-            "Spread sauce on dough.",
-            "Add cheese and toppings.",
-            "Bake in oven until crust is golden."
+            "Dip shrimp and vegetables in tempura batter and fry.",
+            "Serve over cooked rice with soy sauce."
         ]
+       
     },
     "19": {
-        "name": "Sandwiches",
+       "name": "Bibimbap",
         "ingredients": [
-            "Bread",
-            "Deli meats",
-            "Cheese",
-            "Lettuce",
-            "Mayonnaise"
+            "Rice",
+            "Assorted vegetables",
+            "Eggs",
+            "Gochujang",
+            "Sesame oil"
         ],
         "instructions": [
-            "Layer deli meats, cheese, and lettuce between slices of bread.",
-            "Spread mayonnaise inside the bread if desired."
+            "Cook and season vegetables.",
+            "Fry an egg sunny-side up.",
+            "Serve rice with vegetables, egg, and gochujang, and drizzle with sesame oil."
         ]
     },
     "20": {
@@ -314,19 +320,19 @@
         ]
     },
     "23": {
-        "name": "Ramen Noodle",
+       "name": "Chip Butty",
         "ingredients": [
-            "Ramen noodles",
-            "Pork broth",
-            "Boiled egg",
-            "Green onions",
-            "Chashu pork"
+            "Bread",
+            "French fries",
+            "Butter",
+            "Ketchup"
         ],
         "instructions": [
-            "Boil ramen noodles and drain.",
-            "Prepare pork broth and add noodles.",
-            "Top with boiled egg, green onions, and chashu pork."
+            "Toast bread and spread with butter.",
+            "Add a layer of cooked french fries.",
+            "Drizzle with ketchup and assemble the sandwich."
         ]
+        
     },
     "24": {
         "name": "Beef Noodle",
@@ -528,6 +534,7 @@
             "Cook potatoes, carrots, and onions in chicken broth.",
             "Blend until smooth, then stir in cream and simmer."
         ]
+        
     },
     "38": {
         "name": "Sausage",
@@ -1067,15 +1074,18 @@
         ]
     },
     "78": {
-        "name": "Fish-Shaped Pancake with Bean Jam",
+        "name": "Chicken Rice",
         "ingredients": [
-            "Pancake batter",
-            "Sweet red bean paste",
-            "Oil"
+            "Rice",
+            "Chicken",
+            "Garlic",
+            "Soy sauce",
+            "Ginger"
         ],
         "instructions": [
-            "Pour pancake batter into a fish-shaped mold.",
-            "Add sweet red bean paste and cook until golden on both sides."
+            "Sauté garlic and ginger in oil.",
+            "Add chicken and cook until browned.",
+            "Add rice and soy sauce, mix well."
         ]
     },
     "79": {
@@ -1368,17 +1378,16 @@
         ]
     },
     "100": {
-        "name": "Goya Chanpuru",
+        "name": "Rice",
         "ingredients": [
-            "Goya (bitter melon)",
-            "Tofu",
-            "Pork belly",
-            "Soy sauce",
-            "Eggs"
+            "Rice",
+            "Water"
         ],
         "instructions": [
-            "Stir-fry goya, tofu, and pork belly in soy sauce.",
-            "Add beaten eggs and cook until set."
+            "Rinse the rice under cold water.",
+            "Place rice and water in a pot.",
+            "Bring to a boil, then cover and simmer for 15-20 minutes."
         ]
+        
     }
 }

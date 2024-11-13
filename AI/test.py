@@ -12,8 +12,9 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app, origins=["http://localhost:5173"], supports_credentials=True)
 
+#D:\personal\Esoft Campus\final project and proposals\Recipen\Recipen-main\AI
 # Path to your trained model and recipe JSON file
-MODEL_PATH = r'D:\Others\TOPUP\Test Projects\Recipe-System-with-Mern-Stack\AI\food_resnet50_colab.pth'  # Update with your trained model path
+MODEL_PATH = r'D:\personal\Esoft Campus\final project and proposals\Recipen\Recipen-main\AI\food_resnet50_colab.pth'  # Update with your trained model path
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 RECIPE_FILE_PATH = os.path.join(BASE_DIR, 'food.json')
 

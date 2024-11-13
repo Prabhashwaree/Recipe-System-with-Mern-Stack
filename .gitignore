@@ -4,6 +4,6 @@
 /server/.env
 /client/.env
 /client/src/common/data.js
-/AI/venv
+/AI/myenv
 /AI/dataset
 /AI/food_resnet50_colab.pth
