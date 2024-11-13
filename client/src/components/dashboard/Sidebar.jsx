@@ -71,6 +71,7 @@ const index = ({ isCollapsed, setIsCollapsed }) => {
             <BiHomeAlt2 />
             {!isCollapsed && "Home"}
           </NavLink>
+          {user &&  user?.isAdmin && (
           <NavLink
             to={"/dashboard/users"}
             className={`rounded-lg hover:bg-gradient-to-r hover:from-[#5DBF0F] hover:to-[#5DBF0F] p-2 flex gap-2 items-center text-gray-600 hover:text-light ${
@@ -80,6 +81,7 @@ const index = ({ isCollapsed, setIsCollapsed }) => {
             <HiOutlineUsers />
             {!isCollapsed && "Users"}
           </NavLink>
+          )}
           <NavLink
             to={"/dashboard/recipes"}
             className={`rounded-lg hover:bg-gradient-to-r hover:from-[#5DBF0F] hover:to-[#5DBF0F] p-2 flex gap-2 items-center text-gray-600 hover:text-light ${

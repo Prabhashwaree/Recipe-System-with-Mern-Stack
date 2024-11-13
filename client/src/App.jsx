@@ -62,7 +62,7 @@ function App() {
 
           <Route element={<PersistLogin />}>
             {/* Dashboard */}
-            <Route element={<RequireAuth allowedRoles={[ROLES.Admin]} />}>
+            <Route element={<RequireAuth allowedRoles={[ROLES.Admin,ROLES.ProUser]} />}>
               <Route path="/dashboard" element={<DashboardLayout />}>
                 <Route path="users" element={<Users />} />
                 <Route path="recipes" element={<DashboardRecipes />} />

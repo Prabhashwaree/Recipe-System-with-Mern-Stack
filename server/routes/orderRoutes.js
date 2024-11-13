@@ -10,7 +10,7 @@ const router = express.Router();
 router
   .route("/")
   .post(
-    [verifyJwt, verifyRoles(ROLES_LIST.BasicUser,ROLES_LIST.Admin)], 
+    [verifyJwt, verifyRoles(ROLES_LIST.BasicUser,ROLES_LIST.Admin, ROLES_LIST.ProUser)], 
     createOrder
   );
 
@@ -18,7 +18,7 @@ router
 router
   .route("/all")
   .get(
-    [verifyJwt, verifyRoles(ROLES_LIST.Admin)], 
+    [verifyJwt, verifyRoles(ROLES_LIST.Admin, ROLES_LIST.ProUser)], 
     getAllOrders
   );
 
@@ -26,7 +26,7 @@ router
 router
   .route("/status/:orderId")
   .patch(
-    [verifyJwt, verifyRoles(ROLES_LIST.Admin)], 
+    [verifyJwt, verifyRoles(ROLES_LIST.Admin, ROLES_LIST.ProUser)], 
     updateOrderStatus
   );
 

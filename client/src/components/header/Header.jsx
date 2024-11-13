@@ -34,6 +34,16 @@ const Header = () => {
                 </NavLink>
               </li>
             )}
+             {user &&  user?.isProUser && (
+              <li>
+                <NavLink
+                  to={"/dashboard/orders"}
+                  className="relative w-fit block after:block after:content-[''] after:absolute after:h-[2px] after:bg-[#5DBF0F] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center font-semibold text-gray-600"
+                >
+                  Dashboard
+                </NavLink>
+              </li>
+            )}
             <li>
               <NavLink
                 to={"/recipe"}
